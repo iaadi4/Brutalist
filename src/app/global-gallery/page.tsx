@@ -56,7 +56,7 @@ export default function GlobalGalleryPage() {
         
         {/* End Panel */}
         <div className="panel w-[100vw] h-screen flex-shrink-0 flex items-center justify-center bg-[var(--color-brutal-yellow)] relative">
-            <h2 className="text-massive text-[var(--color-brutal-black)] mix-blend-exclusion">END OF INDEX</h2>
+            <h2 className="text-massive text-[var(--color-brutal-black)]">END OF INDEX</h2>
         </div>
       </GsapHorizontalScroll>
     </PageTransition>
