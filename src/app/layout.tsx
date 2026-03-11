@@ -26,11 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} antialiased selection:bg-[var(--color-brutal-yellow)] selection:text-[var(--color-brutal-black)] flex flex-col min-h-screen`}
+        className={`${inter.variable} ${jetbrainsMono.variable} antialiased selection:bg-[var(--color-brutal-yellow)] selection:text-[var(--color-brutal-black)] flex flex-col min-h-screen bg-[var(--color-brutal-bg)]`}
       >
-        <div className="border-[12px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-bg)] flex-1 flex flex-col relative m-4 md:m-8">
+        <div className="flex-1 flex flex-col relative w-full max-w-[100vw] overflow-x-hidden">
           <GlobalNav />
-          <main className="flex-1 overflow-x-hidden relative">
+          <main className="flex-1 w-full relative">
             {children}
           </main>
         </div>
