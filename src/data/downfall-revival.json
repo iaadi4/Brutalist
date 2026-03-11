@@ -1,34 +1,27 @@
 {
-  "downfall": {
-    "era": "Late 1970s – 1980s",
-    "theme": "The Backlash Against Concrete",
-    "details": [
-      {
-        "aspect": "Sociological and Economic",
-        "description": "As the post-WWII economic consensus fractured and the welfare state retreated, maintenance budgets for massive civic structures were slashed. Unfairly, Brutalist architecture became visually synonymous with urban decay, concentrated poverty, and social alienation."
-      },
-      {
-        "aspect": "Political",
-        "description": "The stark, uncompromising grey forms were recast in the public imagination as authoritarian and oppressive. Critics popularized the term 'concrete jungle', associating the architectural honesty with totalitarianism."
-      },
-      {
-        "aspect": "Material Degradation",
-        "description": "Untreated 'béton brut' weathered extremely poorly in the damp, freezing climates of places like Britain and Northern Europe. Without the aggressive sunlight of the Mediterranean or India to create sharp shadows, the concrete suffered severe water staining, rust-bleeding from exposed rebar, and spalling, accelerating its physical decay."
-      }
-    ]
-  },
-  "revival": {
-    "era": "21st Century",
-    "theme": "The Conservation of Heroic Civic Architecture",
-    "details": [
-      {
-        "aspect": "Digital Archiving",
-        "description": "A new generation, unburdened by the socio-political baggage of the 1970s, rediscovered Brutalism through digital photography and platforms like Instagram. The monumental ambition and complex spatial geometries of these buildings proved highly photogenic and compelling."
-      },
-      {
-        "aspect": "#SOSBrutalism",
-        "description": "As original structures faced wholesale demolition, heritage campaigns like #SOSBrutalism emerged. The movement shifted away from universal revulsion toward an active conservation effort, recognizing Brutalist buildings as the last era of genuinely heroic, civic-minded, and optimistic public architecture."
-      }
-    ]
-  }
+  "title": "The Brutal Backlash and the 21st Century Revival",
+  "introduction": "The narrative arc of Brutalism is Perhaps the most dramatic in the history of modern architecture. What began as an aggressively optimistic, sociopolitical crusade for a new egalitarian society collapsed, by the late 1970s, into near-universal public revulsion and architectural infamy. The massive civic structures, once the shining monolithic crown jewels of the welfare state, were systematically recast as terrifying monuments to totalitarianism, urban decay, and social alienation. Yet, this fall from grace was followed by an equally dramatic, digitally-driven resurrection in the 21st century. As the original concrete monoliths faced wholesale demolition by neoliberal urban renewal projects, a new generation recognized their heroic, sublime spatial qualities, sparking a massive, global conservation movement.",
+  "sections": [
+    {
+      "id": "sociological-collapse",
+      "heading": "The Sociological Backlash: The 'Concrete Jungle' and Social Alienation",
+      "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "imageAlt": "Imposing Brutalist estate viewed as alienating and stark",
+      "content": "The downfall of Brutalism was inextricably linked to the collapse of the post-WWII socio-economic consensus that birthed it. By the late 1970s and 1980s, the global economy was gripped by stagflation, and the expansive social democratic welfare states began a rapid retreat. The colossal Brutalist housing estates (like Robin Hood Gardens or the massive banlieues of Paris) were suddenly starved of the essential municipal maintenance budgets required to sustain such complex megastructures. Lifts broke down, the 'streets in the sky' became unwatched, dangerous corridors, and the estates suffered from chronic underfunding. In the public imagination, the architecture itself was blamed for the ensuing concentrated poverty and social dysfunction. The uncompromising, raw aesthetic of 'béton brut' was weaponized by critics; the hard, grey, unyielding surfaces were deemed inherently hostile to human habitation. The media crystallized this sentiment in the ubiquitous trope of the 'concrete jungle.' Buildings designed by idealistic architects to foster community and egalitarian living were unfairly demonized as alienating, totalitarian monstrosities that crushed individual identity under the weight of the state. Brutalism became the visual shorthand for a failed, dystopian socialist experiment."
+    },
+    {
+      "id": "material-degradation",
+      "heading": "The Tragedy of Material Degradation: Weathering and Spalling",
+      "image": "https://images.unsplash.com/photo-1589134769033-ae1ea87d9220?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "imageAlt": "Severe water staining and rust spalling on raw exposed concrete",
+      "content": "Exacerbating the sociological hostility toward the movement was a fundamental, devastating material reality: untreated raw concrete weathered incredibly poorly in the damp, freezing climates of Britain and Northern Europe. Le Corbusier's concept of 'béton brut' was forged under the unforgiving, bleaching light of the Mediterranean sun, where the massive horizontal brise-soleils created sharp, heroic shadow plays that constantly redefined the building's massive volumes. When this exact aesthetic was transplanted to the overcast, rain-swept environments of London or Berlin, the results were disastrous. Without the aggressive sunlight to articulate their deep massing and complex geometries, the massive concrete structures appeared flat, sullen, and oppressively grey. More critically, the porous nature of untreated concrete absorbed pervasive moisture and ubiquitous urban pollution (particularly soot from rampant coal burning in the 60s and 70s), leading to horrific, dark water staining that streaked down the monumental facades like black tears. Structurally, the water penetration reached the embedded steel reinforcement bars; the steel rusted, expanded, and violently blew off the protective concrete cover in a destructive process known as 'spalling.' This material failure accelerated the perception of Brutalist buildings as decaying, ruined hulks. Architects realized far too late the necessity of bush-hammered finishes or aggressively sealed concrete to survive the northern winters."
+    },
+    {
+      "id": "sos-brutalism-revival",
+      "heading": "#SOSBrutalism and the 21st Century Architectural Resurrection",
+      "image": "https://images.unsplash.com/photo-1528659556828-55260b457ea7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "imageAlt": "Heroic upward angle of a massive Brutalist facade, emphasizing geometric ambition",
+      "content": "At the turn of the 21st century, as the original Brutalist structures reached the end of their intended lifespans and faced widespread, unsentimental demolition by developers seeking to sanitize urban landscapes with sheer glass towers, a radical reappraisal occurred. A younger generation—architects, designers, and urban enthusiasts who had no memory of the 1970s socioeconomic crises—looked upon these massive concrete monoliths not as symbols of state oppression or urban decay, but as breathtaking, heroic achievements of spatial and structural audacity. The movement's resurrection was heavily propelled by digital photography and internet archiving. The immense, monumental scale, the brutal truth of the materials, the complex interlocking geometries, and the stark, high-contrast interplay of mass and void proved incredibly photogenic and compelling in the digital age. Campaigns like #SOSBrutalism (spearheaded by the Deutsches Architekturmuseum and the Wüstenrot Foundation) actively shifted the discourse from universal revulsion to urgent architectural conservation. They argued that these buildings represent the final era of genuinely optimistic, civic-minded public architecture—a time when the state dared to build monumentally for the working class. Today, masterpieces like London's Trellick Tower or the Barbican Estate, once reviled as concrete slums, have achieved cult status, their raw, unyielding spaces celebrated as the ultimate expression of mid-century architectural bravado and ethical rigor."
+    }
+  ]
 }

@@ -1,25 +1,27 @@
 {
-  "origins": [
+  "title": "Origins of Brutalism: The Raw Core",
+  "introduction": "The genesis of Brutalism cannot be reduced to a sudden stylistic rupture; rather, it was a complex ethical and material awakening born from the ashes of the Second World War. As Europe lay in ruins, the elegant, weightless abstractions of pre-war International Style modernism—characterized by sleek white renders, weightless pilotis, and ribbon windows—seemed profoundly inadequate, even deceitful, in the face of such immense sociopolitical devastation. Architecture required a new language: one of gravity, permanence, and violent honesty. This necessitated a return to the structural truth of materials, a deliberate exposure of the construction process, and a radical reappraisal of how architecture relates to the human body and the city.",
+  "sections": [
     {
-      "id": "beton-brut",
-      "title": "Béton Brut: The Raw Core",
-      "figure": "Le Corbusier",
-      "year": 1952,
-      "content": "The etymological root of Brutalism traces back to Le Corbusier's phrase 'béton brut'—raw concrete. This was not merely an aesthetic choice, but an ideological and economic necessity in post-war France, manifesting purely in the Unité d'Habitation in Marseille. The wooden formwork left its permanent scar on the concrete, signaling a total rejection of bourgeois ornamentation and celebrating the violent friction of construction."
+      "id": "beton-brut-corbusier",
+      "heading": "Béton Brut: Le Corbusier and the Ethics of the Concrete Sublime",
+      "image": "https://images.unsplash.com/photo-1600378854425-46fd6fa65e92?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "imageAlt": "Board-marked concrete detail showing heavy wood grain textures",
+      "content": "The foundational mythology of Brutalism is inextricably linked to Charles-Édouard Jeanneret, known as Le Corbusier, and his post-war monumental phase. The pivot began with his seminal realization of the Unité d'Habitation in Marseille (completed 1952). Facing severe post-war shortages of skilled labor and high-quality steel, Corbusier was forced to abandon the smooth, machinic precision of his earlier purist villas. Instead, he embraced the rough-cast reality of 'béton brut'—raw concrete. This was not merely an aesthetic compromise; it became a profound philosophical statement. By intentionally leaving the impressions of the rough timber formwork (board-marked concrete) visible on the finished surface, Corbusier captured the exact, violent moment of construction. The wood grain, the knots, the seams between the boards—all were fossilized into the heavy mass of the building. This represented a radical 'truth to materials.' The building no longer pretended to be a weightless abstract object; it confessed its own making. This approach extended to the massive, sculptural pilotis that elevated the structure, moving away from slender steel columns to titanic, muscular concrete legs capable of supporting immense communal weight. Furthermore, Corbusier introduced deep 'brise-soleil' (sun-breaker) penetrations onto the facade, a response to the Mediterranean climate that created profound, high-contrast shadow plays across the extreme cellular grid. The resulting structure was archaic, sublime, and undeniably heavy—a man-made mountain of raw earth and cement that fundamentally altered the trajectory of modernist architecture."
     },
     {
-      "id": "nybrutalism",
-      "title": "Nybrutalism & The Swedish Precedent",
-      "figure": "Hans Asplund",
-      "year": 1950,
-      "content": "The term was playfully coined as 'nybrutalism' by Swedish architect Hans Asplund to describe Villa Göth in Uppsala. The term was rapidly appropriated by English architects visiting Sweden, stripping it of its initially pejorative undertone to describe a rigorous, unapologetic return to primary materials and severe geometric massing."
+      "id": "nybrutalism-asplund",
+      "heading": "Nybrutalism: The Swedish Terminology and Villa Göth",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Villa_G%C3%B6th_2015_%28cropped%29.jpg",
+      "imageAlt": "Villa Göth, Uppsala, Sweden - Early application of the term Nybrutalism",
+      "content": "While Le Corbusier was establishing the material vernacular in France and India, the actual lexical culmination of the movement occurred in a much more domestic setting in Sweden. The term 'nybrutalism' (New Brutalism) was coined in 1950 by the Swedish architect Hans Asplund. The context was surprisingly ordinary: Asplund used the term in a somewhat derogatory, or at least playfully critical, manner to describe Villa Göth, a modern brick home in Uppsala designed by his contemporaries Bengt Edman and Lennart Holm. Villa Göth was a stark departure from the prevailing Swedish grace; it featured exposed brickwork both inside and out, exposed I-beams, visible ventilation ducts, and an overall refusal to conceal its structural and systemic realities behind plaster or dropped ceilings. The house was blunt and uncompromising. The term 'nybrutalism' was subsequently picked up by a group of visiting British architects—most notably Michael Ventris and Oliver Cox—who brought it back to the Architectural Association in London. In the hands of the British avant-garde, the term was rapidly stripped of any pejorative undertones. It was seized upon as a battle cry, a rallying point for a generation of young architects who were deeply dissatisfied with the polite, diluted 'welfare-state modernism' that had become the official style of the post-war reconstruction in Britain. For them, 'Brutalism' perfectly encapsulated the rigorous, unsentimental, and aggressively honest architectural approach they sought to pioneer."
     },
     {
-      "id": "new-brutalism-banham",
-      "title": "The New Brutalism: Ethic or Aesthetic?",
-      "figure": "Reyner Banham",
-      "year": 1955,
-      "content": "In his seminal 1955 essay for the Architectural Review, Reyner Banham codified the movement. He asserted it was 'an ethic, not an aesthetic,' summarizing its tenets as: 1. Memorability as an Image, 2. Clear exhibition of Structure, and 3. Valuation of Materials 'as found.' Banham established Brutalism not as a fleeting style, but as a moral imperative demanding structural truth."
+      "id": "reyner-banham-codification",
+      "heading": "Reyner Banham and the Codification of an Ethic",
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "imageAlt": "Stark geometry and structural exhibition in the Brutalist style",
+      "content": "The intellectual consolidation of the movement was definitively achieved by the British architectural critic Reyner Banham in his seminal 1955 essay, 'The New Brutalism,' published in the Architectural Review. Banham sought to define what was still a diffuse and somewhat chaotic energy among young architects (primarily Alison and Peter Smithson). Crucially, Banham articulated that Brutalism was not merely a stylistic wrapper or a preference for raw concrete; it was, fundamentally, 'an ethic, not an aesthetic.' Banham identified three core tenets that defined a Brutalist structure. First, the formal legibility of plan: the building's internal functions should be immediately readable from its external massing, rejecting the modernist tendency to hide disparate functions within a single, uniform glass box. Second, the clear exhibition of structure: forces of compression and tension should be visually expressed, and load-bearing elements must be unmistakably identifiable. Third, the valuation of materials 'as found': materials should be used honestly, without deceptive veneers, plaster, or paint. Concrete must look like concrete, steel like steel, timber like timber. Banham's codification elevated Brutalism from a reactive impulse to a rigorous, moral philosophy of building. It demanded that architecture operate with absolute candor, reflecting the harsh realities of the post-war socio-economic landscape while striving to create monumental, memorable images that could construct a new civic identity."
     }
   ]
 }
