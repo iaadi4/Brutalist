@@ -8,13 +8,14 @@ export default function Home() {
     <PageTransition>
       <div className="min-h-screen bg-[var(--color-brutal-black)] text-[var(--color-brutal-white)] selection:bg-[var(--color-brutal-red)] selection:text-white flex flex-col relative overflow-hidden">
         
-        {/* Massive Background */}
-        <div className="absolute inset-0 z-0 opacity-60 mix-blend-luminosity pointer-events-none">
-           <GsapParallaxImage src="/images/philosophy-hero-texture.png" alt="Brutalist Concrete Monolith" />
-        </div>
+        {/* Massive Tiled Texture Background */}
+        <div 
+          className="absolute inset-0 z-0 opacity-30 pointer-events-none"
+          style={{ backgroundImage: 'url(/images/global-hero-texture.png)', backgroundSize: '320px 320px', backgroundRepeat: 'repeat' }}
+        ></div>
 
         {/* Hard red diagonal accent */}
-        <div className="absolute top-0 left-0 w-[40vw] h-full bg-[var(--color-brutal-red)] opacity-20 mix-blend-multiply pointer-events-none" style={{ clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)' }}></div>
+        <div className="absolute top-0 left-0 w-[40vw] h-full bg-[var(--color-brutal-red)] opacity-15 mix-blend-multiply pointer-events-none" style={{ clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)' }}></div>
 
         <main className="flex-1 relative z-10 flex flex-col items-center justify-center p-8 lg:p-16 min-h-screen">
           <GsapScrollReveal className="w-full max-w-7xl flex flex-col items-center">
@@ -34,12 +35,13 @@ export default function Home() {
             </div>
 
             {/* Navigation Grid */}
-            <nav className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-6xl">
+            <nav className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 w-full max-w-6xl">
               {[
                 { name: "ORIGINS", path: "/history", color: "bg-[var(--color-brutal-cyan)]", desc: "The Post-War Concrete Pour" },
                 { name: "ETHOS", path: "/philosophy", color: "bg-[var(--color-brutal-red)]", desc: "The Moral Imperative" },
                 { name: "GLOBAL", path: "/global-gallery", color: "bg-[var(--color-brutal-white)]", desc: "Worldwide Monoliths", text: "text-[var(--color-brutal-black)]" },
-                { name: "INDIA", path: "/india", color: "bg-[var(--color-brutal-gray-100)]", desc: "The Subcontinental Slab", text: "text-[var(--color-brutal-black)]" }
+                { name: "INDIA", path: "/india", color: "bg-[var(--color-brutal-gray-100)]", desc: "The Subcontinental Slab", text: "text-[var(--color-brutal-black)]" },
+                { name: "MEDIA", path: "/media", color: "bg-[var(--color-brutal-yellow)]", desc: "Soviet Concrete Archive", text: "text-[var(--color-brutal-black)]" }
               ].map((link) => (
                 <Link 
                   key={link.name} 

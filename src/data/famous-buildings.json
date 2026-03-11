@@ -1,0 +1,1163 @@
+[
+  {
+    "id": "ministry-highways-tbilisi",
+    "name": "Ministry of Highways",
+    "location": "Tbilisi, Georgia",
+    "year": 1975,
+    "architect": "Giorgi Chakhava",
+    "style": "Soviet Brutalism",
+    "tags": [
+      "Soviet",
+      "Iconic"
+    ],
+    "wiki": "Ministry_of_Road_Building_(Georgia)",
+    "description": "A staggering cascade of interlocking concrete platforms descending a Tbilisi hillside, simultaneously a building and infrastructure piece. Each level cantilevers from a central spine, forming a brutalist waterfall of raw concrete. Chakhava's masterpiece defies gravity at every turn.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg/1280px-View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg"
+  },
+  {
+    "id": "buzludzha",
+    "name": "Buzludzha Monument",
+    "location": "Stara Planina, Bulgaria",
+    "year": 1981,
+    "architect": "Georgi Stoilov",
+    "style": "Socialist Monumental",
+    "tags": [
+      "Soviet",
+      "Abandoned",
+      "Iconic"
+    ],
+    "wiki": "Buzludzha",
+    "description": "An alien concrete saucer erupting from a Bulgarian mountain summit at 1,441 metres. Home to the Bulgarian Communist Party, its massive concrete ribs radiate from a central hub. Abandoned since 1989, now the most photogenic entropy in post-Soviet Europe.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Buzludzha_-_panoramio.jpg/1280px-Buzludzha_-_panoramio.jpg"
+  },
+  {
+    "id": "narkomfin",
+    "name": "Narkomfin Building",
+    "location": "Moscow, Russia",
+    "year": 1930,
+    "architect": "Moisei Ginzburg",
+    "style": "Constructivism",
+    "tags": [
+      "Soviet",
+      "Pioneer"
+    ],
+    "wiki": "Narkomfin_building",
+    "description": "Proto-Brutalism crystallized. Ginzburg designed this as a physical incubator for the New Soviet Man, with tiny cell apartments deliberately forcing communal living. Pre-dates and directly inspired Le Corbusier's housing dogma.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Kudrinszkaja_t%C3%A9ri_torony%C3%A9p%C3%BClet._Szovjetuni%C3%B3%2C_Moszkva_1971._Fortepan_100578_%28cropped%29.jpg/1280px-A_Kudrinszkaja_t%C3%A9ri_torony%C3%A9p%C3%BClet._Szovjetuni%C3%B3%2C_Moszkva_1971._Fortepan_100578_%28cropped%29.jpg"
+  },
+  {
+    "id": "genex-tower",
+    "name": "Western City Gate (Genex Tower)",
+    "location": "Belgrade, Serbia",
+    "year": 1980,
+    "architect": "Mihajlo Mitrović",
+    "style": "Yugoslav Brutalism",
+    "tags": [
+      "Yugoslav",
+      "Iconic"
+    ],
+    "wiki": "Genex_Tower",
+    "description": "A twin-tower Brutalist skyscraper connected at its crown by a rotating restaurant, straddling the Belgrade motorway as a pure gate-architecture. The raw, board-marked concrete facade and motorway-spanning silhouette makes this one of the most confrontational pieces of Yugoslav-era Brutalism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Genex_Tower_18.jpg/1280px-Genex_Tower_18.jpg"
+  },
+  {
+    "id": "house-of-soviets",
+    "name": "House of Soviets ('The Buried Robot')",
+    "location": "Kaliningrad, Russia",
+    "year": 1970,
+    "architect": "Yulian Shvartsbreim",
+    "style": "Soviet Brutalism",
+    "tags": [
+      "Soviet",
+      "Abandoned",
+      "Iconic"
+    ],
+    "wiki": "House_of_Soviets_(Kaliningrad)",
+    "description": "Perhaps the most mythologized ruin of the Soviet era. Never completed, perpetually rotting for five decades as a symbol of failed Soviet ambition. Its nickname 'The Buried Robot' speaks to the involuntary menace of its hulking, semi-articulated facade.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Dom_sovetov.jpg"
+  },
+  {
+    "id": "habitat-67",
+    "name": "Habitat 67",
+    "location": "Montréal, Canada",
+    "year": 1967,
+    "architect": "Moshe Safdie",
+    "style": "Megastructure Brutalism",
+    "tags": [
+      "Megastructure",
+      "Iconic"
+    ],
+    "wiki": "Habitat_67",
+    "description": "354 prefabricated concrete box-modules stacked into 158 interlocking dwellings. Brutalism as systemic design — every seam, bolt, and casting mark is visible. The industrial prefabrication process is the architecture.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Habitat_67%2C_southwest_view.jpg/1280px-Habitat_67%2C_southwest_view.jpg"
+  },
+  {
+    "id": "robin-hood-gardens",
+    "name": "Robin Hood Gardens",
+    "location": "London, UK",
+    "year": 1972,
+    "architect": "Alison & Peter Smithson",
+    "style": "New Brutalism",
+    "tags": [
+      "Social Housing",
+      "Demolished"
+    ],
+    "wiki": "Robin_Hood_Gardens",
+    "description": "Built by the architects who coined 'New Brutalism' — two massive curved concrete slabs with elevated 'streets in the sky'. Demolished in 2017, its passing was mourned as a catastrophic loss of social brutalism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Blue_Fish_Side.jpg/1280px-Blue_Fish_Side.jpg"
+  },
+  {
+    "id": "boston-city-hall",
+    "name": "Boston City Hall",
+    "location": "Boston, USA",
+    "year": 1968,
+    "architect": "Kallmann McKinnell & Knowles",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Boston_City_Hall",
+    "description": "An inverted ziggurat that violently cantilevers outward as it rises. The building physically expresses internal function on its exterior — a defining example of programmatic Brutalism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/1855_BrattleSt_AbbottLawrenceFuneral_Boston_Southworth_Hawes_MFABoston.png"
+  },
+  {
+    "id": "trellick-tower",
+    "name": "Trellick Tower",
+    "location": "London, UK",
+    "year": 1972,
+    "architect": "Ernő Goldfinger",
+    "style": "British Brutalism",
+    "tags": [
+      "Social Housing",
+      "Iconic"
+    ],
+    "wiki": "Trellick_Tower",
+    "description": "The terrifyingly elegant pinnacle of British high-rise social Brutalism. The detached service tower connected via sky bridges every third floor — once vilified, now an iconic London landmark.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Balconies_of_the_Trellick_Tower.jpg/1280px-Balconies_of_the_Trellick_Tower.jpg"
+  },
+  {
+    "id": "barbican-estate",
+    "name": "Barbican Estate",
+    "location": "London, UK",
+    "year": 1982,
+    "architect": "Chamberlin, Powell and Bon",
+    "style": "British Brutalism",
+    "tags": [
+      "Megastructure",
+      "Social Housing"
+    ],
+    "wiki": "Barbican_Estate",
+    "description": "An unprecedented sprawling urban megastructure resurrecting 40 acres of Blitz-obliterated London. A multi-level utopian fortress with elevated pedestrian 'highwalks', artificial lakes and bush-hammered concrete facades.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Barbican.flats.london.arp.jpg/1280px-Barbican.flats.london.arp.jpg"
+  },
+  {
+    "id": "park-hill",
+    "name": "Park Hill",
+    "location": "Sheffield, UK",
+    "year": 1961,
+    "architect": "Jack Lynn & Ivor Smith",
+    "style": "British Brutalism",
+    "tags": [
+      "Social Housing",
+      "Megastructure"
+    ],
+    "wiki": "Park_Hill,_Sheffield",
+    "description": "A serpentine concrete slab housing 3,000 people on a Sheffield hillside. Its 'streets in the sky' were wide enough for milk floats to drive along, making it an urban village suspended in raw concrete.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/C%C3%A9lula_b%C3%A1sica_de_vivienda.jpg/1280px-C%C3%A9lula_b%C3%A1sica_de_vivienda.jpg"
+  },
+  {
+    "id": "unite-dhabitation",
+    "name": "Unité d'Habitation",
+    "location": "Marseille, France",
+    "year": 1952,
+    "architect": "Le Corbusier",
+    "style": "French Brutalism",
+    "tags": [
+      "Pioneer",
+      "Iconic"
+    ],
+    "wiki": "Unité_d'Habitation",
+    "description": "The genesis of Brutalism. A colossal vertical garden city housing 1,600 people — the first major architectural application of béton brut. Le Corbusier left the raw wood-grain imprints of the shuttering boards deliberately visible.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Unit%C3%A9_d%27habitation_Marseille%2C_France.jpg/1280px-Unit%C3%A9_d%27habitation_Marseille%2C_France.jpg"
+  },
+  {
+    "id": "chandigarh-capitol",
+    "name": "Chandigarh Capitol Complex",
+    "location": "Chandigarh, India",
+    "year": 1957,
+    "architect": "Le Corbusier",
+    "style": "Indian Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic",
+      "Pioneer"
+    ],
+    "wiki": "Capitol_Complex,_Chandigarh",
+    "description": "Le Corbusier's complete urban monument to Indian independence. The Palace of Assembly's hyperbolic paraboloid concrete parasol roof is one of the most sublime structural-aesthetic forms in all of Brutalism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Palace_of_Assembly_Chandigarh_2006.jpg/1280px-Palace_of_Assembly_Chandigarh_2006.jpg"
+  },
+  {
+    "id": "national-theatre",
+    "name": "National Theatre",
+    "location": "London, UK",
+    "year": 1976,
+    "architect": "Denys Lasdun",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "National_Theatre_(London)",
+    "description": "A horizontal concrete landscape of stacked, interlocking terraces cascading to the Thames. Lasdun's 'urban theatre' concept — the building as a stage for civic life — makes it as much landscape as architecture.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/The_National_Theatre%2C_South_Bank%2C_London_-_geograph.org.uk_-_1861458.jpg/1280px-The_National_Theatre%2C_South_Bank%2C_London_-_geograph.org.uk_-_1861458.jpg"
+  },
+  {
+    "id": "senate-house-london",
+    "name": "Senate House",
+    "location": "London, UK",
+    "year": 1937,
+    "architect": "Charles Holden",
+    "style": "Art Deco Monumental",
+    "tags": [
+      "Civic",
+      "Pre-Brutalist"
+    ],
+    "wiki": "Senate_House,_London",
+    "description": "George Orwell's model for the Ministry of Truth. A towering Art Deco-Brutalist monolith that terrified Londoners with its sheer vertical concrete and stone mass. A proto-brutal civic monument.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bedford_Square_2.jpg"
+  },
+  {
+    "id": "yale-art-architecture",
+    "name": "Yale Art & Architecture Building",
+    "location": "New Haven, USA",
+    "year": 1963,
+    "architect": "Paul Rudolph",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Corduroy"
+    ],
+    "wiki": "Art_and_Architecture_Building_(Yale)",
+    "description": "Paul Rudolph's masterpiece of 'corduroy concrete' — deliberately rifled ribbed surfaces creating extreme shadow patterns across every surface. The 37 interlocking floor levels create a vertiginous spatial complexity.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rudolph_Hall_and_Loria_Center%2C_Yale_School_of_Architecture.jpg/1280px-Rudolph_Hall_and_Loria_Center%2C_Yale_School_of_Architecture.jpg"
+  },
+  {
+    "id": "geisel-library",
+    "name": "Geisel Library (UCSD)",
+    "location": "San Diego, USA",
+    "year": 1970,
+    "architect": "William Pereira",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Geisel_Library",
+    "description": "An alien concrete mushroom rising from a canyon in La Jolla. Its stepped, glass-flanked concrete cantilevered platforms create the uncanny illusion of a structure hovering above ground — a futurist brutalist vision.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Geisel_Library%2C_UCSD.jpg/1280px-Geisel_Library%2C_UCSD.jpg"
+  },
+  {
+    "id": "sirius-building",
+    "name": "Sirius Building",
+    "location": "Sydney, Australia",
+    "year": 1980,
+    "architect": "Tao Gofers",
+    "style": "Australian Brutalism",
+    "tags": [
+      "Social Housing",
+      "Iconic"
+    ],
+    "wiki": "Sirius_building",
+    "description": "A stacked collection of interlocking concrete apartments defying the Sydney Harbour skyline. Built as public housing, it was nearly demolished before being heritage-listed after intense public battle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sirius_Sydney_04.jpg/1280px-Sirius_Sydney_04.jpg"
+  },
+  {
+    "id": "salk-institute",
+    "name": "Salk Institute for Biological Studies",
+    "location": "La Jolla, USA",
+    "year": 1965,
+    "architect": "Louis Kahn",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Salk_Institute_for_Biological_Studies",
+    "description": "Louis Kahn's serene, symmetrical concrete canyon opening to the Pacific. The central travertine courtyard with its razor-thin water blade bisecting the vanishing point is one of the most profound spatial experiences in all of Brutalism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2019_Salk_Institute_north_building_from_east.jpg/1280px-2019_Salk_Institute_north_building_from_east.jpg"
+  },
+  {
+    "id": "paul-rudolph-heritage",
+    "name": "Paul Rudolph Heritage Building",
+    "location": "Singapore",
+    "year": 1981,
+    "architect": "Paul Rudolph",
+    "style": "Southeast Asian Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "People's_Park_Complex",
+    "description": "A megastructural mixed-use concrete colossus integrating residential, commercial, and civic functions into a single stepped brutalist pyramid flanking People's Park in Singapore. Rudolph's tropical brutalism at its most ambitious.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Pearl_Bank_Apartments_2%2C_Dec_05.jpg"
+  },
+  {
+    "id": "minsk-national-library",
+    "name": "National Library of Belarus",
+    "location": "Minsk, Belarus",
+    "year": 2006,
+    "architect": "Mikhail Vinogradov",
+    "style": "Post-Soviet Brutalism",
+    "tags": [
+      "Soviet",
+      "Civic"
+    ],
+    "wiki": "National_Library_of_Belarus",
+    "description": "A rhombicuboctahedron of glass and steel reinterpreting Soviet Brutalist mass through a geometric crystal form. Its illuminated facade transforms the night skyline of Minsk into a science-fiction dreamscape.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/National_library_of_Belarus.jpg/1280px-National_library_of_Belarus.jpg"
+  },
+  {
+    "id": "triumph-palace",
+    "name": "Triumph Palace",
+    "location": "Moscow, Russia",
+    "year": 2006,
+    "architect": "Various",
+    "style": "Neo-Stalinist",
+    "tags": [
+      "Soviet",
+      "Residential"
+    ],
+    "wiki": "Triumph_Palace",
+    "description": "A 57-story neo-Stalinist residential skyscraper referencing the Seven Sisters of Moscow. Its obsessive vertical symmetry and layered ornamentation recycles the totalitarian visual vocabulary of Stalinist architecture for the Putin era.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Moscow_05-2017_img42_Triumph_Palace.jpg/1280px-Moscow_05-2017_img42_Triumph_Palace.jpg"
+  },
+  {
+    "id": "gosplan-garage",
+    "name": "Gosplan Garage",
+    "location": "Moscow, Russia",
+    "year": 1936,
+    "architect": "Konstantin Melnikov",
+    "style": "Soviet Constructivism",
+    "tags": [
+      "Soviet",
+      "Pioneer"
+    ],
+    "wiki": "Gosplan_Garage",
+    "description": "Melnikov's radical constructivist garage for the USSR's state planning committee. Pure industrial architecture — the building is its function, its structure its decoration. A pioneer of the brutal-functionalist approach.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gosplan_car_garage-_Konstantin_Melnikov%2C_1934-1936_%2811985312565%29.jpg/1280px-Gosplan_car_garage-_Konstantin_Melnikov%2C_1934-1936_%2811985312565%29.jpg"
+  },
+  {
+    "id": "central-bank-dhaka",
+    "name": "Bangladesh Parliament (Jatiya Sangsad Bhaban)",
+    "location": "Dhaka, Bangladesh",
+    "year": 1982,
+    "architect": "Louis Kahn",
+    "style": "South Asian Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic",
+      "Pioneer"
+    ],
+    "wiki": "Bangladesh_National_Parliament_House",
+    "description": "Louis Kahn's last major commission — a monumental assembly of geometric forms carved from raw concrete. The Jatiya Sangsad Bhaban floats on an artificial lake, its vast concrete circles and triangles cut into the facade creating cathedral-like interior light.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/National_Assembly_of_Bangladesh_%2810%29.jpg/1280px-National_Assembly_of_Bangladesh_%2810%29.jpg"
+  },
+  {
+    "id": "secretariat-building-chandigarh",
+    "name": "Secretariat Building, Chandigarh",
+    "location": "Chandigarh, India",
+    "year": 1955,
+    "architect": "Le Corbusier",
+    "style": "Indian Brutalism",
+    "tags": [
+      "Civic",
+      "Pioneer"
+    ],
+    "wiki": "Secretariat_Building,_Chandigarh",
+    "description": "A colossal horizontal slab completely armored in brise-soleils — Corbusier's deep concrete sun-grilles blocking the punishing Indian sun. The entire facade is a tectonic grid that controls climate while expressing structural forces.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Secretariat_Chandigarh.jpg"
+  },
+  {
+    "id": "breuer-hq",
+    "name": "Marcel Breuer Building (Cleveland)",
+    "location": "Cleveland, USA",
+    "year": 1971,
+    "architect": "Marcel Breuer",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Hubert_H._Humphrey_Building",
+    "description": "Breuer's federal department building translated his brutal ziggurat aesthetic to Washington scale — a massive, deeply shadowed concrete slab with an elaborate exposed structural frame wrapping each floor plate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/DHHS_by_Matthew_Bisanz.JPG/1280px-DHHS_by_Matthew_Bisanz.JPG"
+  },
+  {
+    "id": "notre-dame-du-haut",
+    "name": "Notre Dame du Haut",
+    "location": "Ronchamp, France",
+    "year": 1955,
+    "architect": "Le Corbusier",
+    "style": "Sculptural Brutalism",
+    "tags": [
+      "Religious",
+      "Pioneer",
+      "Iconic"
+    ],
+    "wiki": "Notre-Dame_du_Haut,_Ronchamp",
+    "description": "Corbusier's monumental concrete prayer — a pilgrimage chapel whose swooping, shell-like concrete roof hovers over rough-cast walls pierced by irregularly placed stained-glass windows. Neither rational nor ornamental — purely expressive concrete mass.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/59/RonchampCorbu.jpg"
+  },
+  {
+    "id": "elephant-castle-heygate",
+    "name": "Heygate Estate",
+    "location": "London, UK",
+    "year": 1974,
+    "architect": "Tim Tinker",
+    "style": "British Brutalism",
+    "tags": [
+      "Social Housing",
+      "Demolished"
+    ],
+    "wiki": "Heygate_Estate",
+    "description": "A vast interlocked concrete estate of 1,212 dwellings demolished in 2014 amid fierce controversy. Heygate's continuous elevated walkways and layered facades made it one of the most complete realizations of the 'streets in the sky' social housing principle ever built in Britain.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/E%26Cregeneration.jpg"
+  },
+  {
+    "id": "prentice-womens-hospital",
+    "name": "Prentice Women's Hospital",
+    "location": "Chicago, USA",
+    "year": 1975,
+    "architect": "Bertrand Goldberg",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Demolished"
+    ],
+    "wiki": "Prentice_Women's_Hospital",
+    "description": "Goldberg's extraordinary cloverleaf hospital tower balanced four concrete petals on a rectangular base defining the absolute frontier of structural Brutalism. Its demolition in 2014 was described by architects worldwide as 'an act of vandalism against urban culture'.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Prentice_Chicago_060816.jpg"
+  },
+  {
+    "id": "cultural-center-brussels",
+    "name": "Berlaymont Building",
+    "location": "Brussels, Belgium",
+    "year": 1969,
+    "architect": "Lucien De Vestel",
+    "style": "European Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Berlaymont_building",
+    "description": "The headquarters of the European Commission — a vast X-shaped concrete and glass curtain wall structure projecting European technocratic authority. Its asterisk footprint, allowing ambulance access from all directions, became the model for postwar European civic architecture.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg/1280px-Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg"
+  },
+  {
+    "id": "hemeroscopium-house",
+    "name": "Torres Blancas",
+    "location": "Madrid, Spain",
+    "year": 1969,
+    "architect": "Francisco Javier Sáenz de Oíza",
+    "style": "Spanish Brutalism",
+    "tags": [
+      "Residential",
+      "Iconic"
+    ],
+    "wiki": "Torres_Blancas",
+    "description": "A raw concrete cylindrical residential tower whose plan resembles a cross section of a tree trunk — the apartment units wrapping around a structural core with curved, deeply recessed terrace balconies. One of the most dramatic brutalist residential forms in Europe.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/4_Torres_desde_CBA_Bellas_Artes_%28Zoom_14%29_-_panoramio_%28crop%29.jpg/1280px-4_Torres_desde_CBA_Bellas_Artes_%28Zoom_14%29_-_panoramio_%28crop%29.jpg"
+  },
+  {
+    "id": "oscar-niemeyer-brasilia",
+    "name": "National Congress of Brazil",
+    "location": "Brasília, Brazil",
+    "year": 1960,
+    "architect": "Oscar Niemeyer",
+    "style": "Latin American Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic",
+      "Pioneer"
+    ],
+    "wiki": "National_Congress_of_Brazil",
+    "description": "Niemeyer's supreme formal statement — twin identical towers flanked by two opposed dome-bowls (Senate and Chamber), one concave facing up, the other convex. Pure sculpture in concrete at the largest possible civic scale.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Brazilian_National_Congress.jpg/1280px-Brazilian_National_Congress.jpg"
+  },
+  {
+    "id": "french-communist-party",
+    "name": "French Communist Party Headquarters",
+    "location": "Paris, France",
+    "year": 1971,
+    "architect": "Oscar Niemeyer",
+    "style": "French Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "French_Communist_Party_headquarters",
+    "description": "Niemeyer's extraordinary domed underground assembly hall, partially buried below street level, rising only as a curving white concrete dome betraying its presence. Its futurism sits in deliberate, provocative contrast with the 19th-century Parisian streetscape.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/PCF_HQ_41.JPG/1280px-PCF_HQ_41.JPG"
+  },
+  {
+    "id": "centro-civico-granada",
+    "name": "Torres de Colón",
+    "location": "Madrid, Spain",
+    "year": 1976,
+    "architect": "Antonio Lamela",
+    "style": "Spanish Brutalism",
+    "tags": [
+      "Residential",
+      "Civic"
+    ],
+    "wiki": "Torres_de_Colón",
+    "description": "A pair of linked concrete towers whose connection at the apex creates a distinctive inverted silhouette against the Madrid skyline. Structural expression made into pure architectural drama — the floors hang from the top rather than being supported from the base.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/4_Torres_desde_CBA_Bellas_Artes_%28Zoom_14%29_-_panoramio_%28crop%29.jpg/1280px-4_Torres_desde_CBA_Bellas_Artes_%28Zoom_14%29_-_panoramio_%28crop%29.jpg"
+  },
+  {
+    "id": "zagreb-grounding",
+    "name": "Cibona Tower",
+    "location": "Zagreb, Croatia",
+    "year": 1987,
+    "architect": "Vladimir Turina",
+    "style": "Yugoslav Brutalism",
+    "tags": [
+      "Yugoslav",
+      "Residential"
+    ],
+    "wiki": "Cibona_Tower",
+    "description": "A striking cylindrical concrete and glass skyscraper rising from Zagreb's concrete urban fabric. Its circular plan and exposed structural rings make it one of the most distinctive skyline elements of Yugoslav modernism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Cibona3.jpg"
+  },
+  {
+    "id": "coliseum-new-haven",
+    "name": "New Haven Veterans Memorial Coliseum",
+    "location": "New Haven, USA",
+    "year": 1972,
+    "architect": "Kevin Roche",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Demolished"
+    ],
+    "wiki": "Veterans_Memorial_Coliseum_(New_Haven)",
+    "description": "A brutalist megastructure that integrated an arena, parking garage and offices into a single massive concrete platform. Its flat, brooding concrete slab hovering above the city streets was demolished in 2007.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/New_Haven_Coliseum_morning_of_demolition.JPG/1280px-New_Haven_Coliseum_morning_of_demolition.JPG"
+  },
+  {
+    "id": "southbank-centre",
+    "name": "Southbank Centre",
+    "location": "London, UK",
+    "year": 1968,
+    "architect": "Various",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Southbank_Centre",
+    "description": "A labyrinthine concrete cultural campus on the Thames — the Royal Festival Hall, Queen Elizabeth Hall, and Hayward Gallery form a continuous landscape of elevated walkways, rough concrete terraces, and sudden drops. London's most loved brutalist landscape.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Southbank_Centre_aerial_photo.jpg/1280px-Southbank_Centre_aerial_photo.jpg"
+  },
+  {
+    "id": "leningrad-hotel",
+    "name": "Hotel Leningrad (Corinthia Hotel)",
+    "location": "St Petersburg, Russia",
+    "year": 1970,
+    "architect": "Sergei Speransky",
+    "style": "Soviet Brutalism",
+    "tags": [
+      "Soviet",
+      "Residential"
+    ],
+    "wiki": "Corinthia_Hotel_St._Petersburg",
+    "description": "A monolithic Intourist hotel rising above St Petersburg's Neva embankment — a vast, unbroken concrete facade confronting the baroque city across the river. The Soviet hospitality industry's brutal statement opposite the Winter Palace.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/SPB_Newski_house_57.jpg/1280px-SPB_Newski_house_57.jpg"
+  },
+  {
+    "id": "marina-city",
+    "name": "Marina City",
+    "location": "Chicago, USA",
+    "year": 1967,
+    "architect": "Bertrand Goldberg",
+    "style": "American Brutalism",
+    "tags": [
+      "Residential",
+      "Iconic"
+    ],
+    "wiki": "Marina_City",
+    "description": "Two concrete corncobs rising above the Chicago River — Goldberg's extraordinary spiral parking-to-residential towers where the individual apartment balconies create a precise, curved brutalist rhythm against the sky. An icon of mid-century urban optimism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Chicago_20141102_06_Nik_Wallenda_on_Marina_City_%2824601126919%29.jpg/1280px-Chicago_20141102_06_Nik_Wallenda_on_Marina_City_%2824601126919%29.jpg"
+  },
+  {
+    "id": "federal-building-chicago",
+    "name": "Daley Center (Chicago)",
+    "location": "Chicago, USA",
+    "year": 1965,
+    "architect": "CF Murphy Associates",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Daley_Center",
+    "description": "A 31-storey COR-TEN steel and concrete slab designed to weather and rust slowly to a deep mahogany-brown — the building that makes its own patina. Picasso donated the steel sculpture at its base, refusing payment, honoring the building's radical material honesty.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Daley_Center_Chicago.jpg/1280px-Daley_Center_Chicago.jpg"
+  },
+  {
+    "id": "parliament-house-dhaka",
+    "name": "National Assembly Building (Bangladesh)",
+    "location": "Dhaka, Bangladesh",
+    "year": 1982,
+    "architect": "Louis Kahn",
+    "style": "South Asian Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Bangladesh_National_Parliament_House",
+    "description": "Kahn's last masterpiece — a floating island of circular and triangular concrete forms cut with geometric apertures. Completed after his death, the building floats on an artificial lake, its abstract concrete geometry redefining civic monumentality for the developing world.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/National_Assembly_of_Bangladesh_%2810%29.jpg/1280px-National_Assembly_of_Bangladesh_%2810%29.jpg"
+  },
+  {
+    "id": "pompidou-centre",
+    "name": "Centre Georges Pompidou",
+    "location": "Paris, France",
+    "year": 1977,
+    "architect": "Renzo Piano & Richard Rogers",
+    "style": "High-Tech Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Centre_Georges_Pompidou",
+    "description": "The inside-out building: all structure, ducts, escalators and services expressed on the exterior in a riot of colour-coded pipework over raw steel and concrete. The brutalist principle of structural honesty taken to its absolute, chaotic extreme.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Centre_Georges_Pompidou.jpg/1280px-Centre_Georges_Pompidou.jpg"
+  },
+  {
+    "id": "balfron-tower",
+    "name": "Balfron Tower",
+    "location": "London, UK",
+    "year": 1967,
+    "architect": "Ernő Goldfinger",
+    "style": "British Brutalism",
+    "tags": [
+      "Social Housing",
+      "Iconic"
+    ],
+    "wiki": "Balfron_Tower",
+    "description": "Goldfinger's East London counterpart to Trellick Tower — equally dramatic in its detached service tower connected by sky bridges. Goldfinger famously lived in the building himself for two months to research the residents' experience of his own design.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Balfron_Tower_E14.jpg/1280px-Balfron_Tower_E14.jpg"
+  },
+  {
+    "id": "beinecke-library",
+    "name": "Beinecke Rare Book Library (Yale)",
+    "location": "New Haven, USA",
+    "year": 1963,
+    "architect": "Gordon Bunshaft (SOM)",
+    "style": "American Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Beinecke_Rare_Book_%26_Manuscript_Library",
+    "description": "A windowless concrete and marble lantern — translucent panels of Vermont marble replace windows, creating a golden interior glow while the exterior reads as a pure, geometric concrete frame. The books inside are visible from outside through the glowing walls.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Beinecke_Rare_Book_%26_Manuscript_Library_%2854106261813%29.jpg/1280px-Beinecke_Rare_Book_%26_Manuscript_Library_%2854106261813%29.jpg"
+  },
+  {
+    "id": "barbican-arts-centre",
+    "name": "Barbican Arts Centre",
+    "location": "London, UK",
+    "year": 1982,
+    "architect": "Chamberlin, Powell and Bon",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Barbican_Centre",
+    "description": "Embedded in the Barbican Estate's concrete megastructure — the Arts Centre houses three cinemas, two theatres, concert halls, galleries, and a conservatory all within a continuous labyrinthine concrete interior whose brutal aesthetic is entirely inseparable from the works it presents.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Barbican_%2815157601212%29.jpg/1280px-Barbican_%2815157601212%29.jpg"
+  },
+  {
+    "id": "central-statistical",
+    "name": "National Audit Office",
+    "location": "Warsaw, Poland",
+    "year": 1978,
+    "architect": "Jerzy Józefowicz",
+    "style": "Polish Brutalism",
+    "tags": [
+      "Soviet",
+      "Civic"
+    ],
+    "wiki": "Supreme_Audit_Office,_Warsaw",
+    "description": "A massive concrete administrative fortress rising above Warsaw's Śródmieście — its stacked, cantilevering floors form an aggressive ziggurat of raw concrete. The Polish state's raw authority expressed in béton brut.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aleja_Niepdleglosci_Warsaw_2022_aerial_%28cropped%29.jpg/1280px-Aleja_Niepdleglosci_Warsaw_2022_aerial_%28cropped%29.jpg"
+  },
+  {
+    "id": "ica-london",
+    "name": "Commonwealth Institute",
+    "location": "London, UK",
+    "year": 1962,
+    "architect": "Robert Matthew",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Commonwealth_Institute_(London)",
+    "description": "A hyperbolic paraboloid copper roof sweeping dramatically over a concrete and glass pavilion — London's only example of the structural form that Corbusier used at Chandigarh. Now converted to the Design Museum, its spectacular structural shell survives.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Commonwealth_Institute_London_03.JPG/1280px-Commonwealth_Institute_London_03.JPG"
+  },
+  {
+    "id": "dundee-rep",
+    "name": "Dundee Rep Theatre",
+    "location": "Dundee, Scotland",
+    "year": 1982,
+    "architect": "Nicoll Russell Studios",
+    "style": "Scottish Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Dundee_Rep_Theatre",
+    "description": "A raw concrete cultural building whose exposed service ducts, board-marked concrete walls, and deliberately industrial aesthetic place it firmly in the late British Brutalist tradition. Its flexible performance spaces are defined by the honest expression of structure overhead.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dundee_Rep.jpg/1280px-Dundee_Rep.jpg"
+  },
+  {
+    "id": "hayward-gallery",
+    "name": "Hayward Gallery",
+    "location": "London, UK",
+    "year": 1968,
+    "architect": "London County Council Architects",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Hayward_Gallery",
+    "description": "A deliberately uncompromising concrete labyrinth on the South Bank — its zigzagging ramps, floating concrete pyramidal skylights, and total refusal of external ornament make it the purest, most confrontational expression of New Brutalism in London.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hayward-gallery-london_I.jpg"
+  },
+  {
+    "id": "maeght-foundation",
+    "name": "Fondation Maeght",
+    "location": "Saint-Paul-de-Vence, France",
+    "year": 1964,
+    "architect": "Josep Lluís Sert",
+    "style": "Mediterranean Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Fondation_Maeght",
+    "description": "Sert's art museum uses raw concrete walls, terracotta tiles, and skylights to create an intimate brutalism scaled to the human body. The building dissolves into the landscape of Provence — a rare case of Brutalism that is simultaneously brutal and beautiful.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/02_Fondation_Maeght.JPG/1280px-02_Fondation_Maeght.JPG"
+  },
+  {
+    "id": "st-johns-college",
+    "name": "Cripps Building (St John's College)",
+    "location": "Cambridge, UK",
+    "year": 1967,
+    "architect": "Powell & Moya",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Cripps_Building,_St_John's_College,_Cambridge",
+    "description": "A sophisticated concrete residential block for Cambridge's oldest colleges — demonstrating that Brutalism and academic tradition are not necessarily opposed. The board-marked concrete is meticulously crafted, its proportions calibrated against the medieval chapel next door.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cambridge_-_St_John_College_-_New_Court.jpg/1280px-Cambridge_-_St_John_College_-_New_Court.jpg"
+  },
+  {
+    "id": "tricorn-centre",
+    "name": "Tricorn Centre",
+    "location": "Portsmouth, UK",
+    "year": 1966,
+    "architect": "Owen Luder",
+    "style": "British Brutalism",
+    "tags": [
+      "Social Housing",
+      "Demolished"
+    ],
+    "wiki": "Tricorn_Centre",
+    "description": "A spiraling concrete megastructure of brutalist shopping centre, car park and market that was voted 'England's ugliest building' before its demolition. As with all brutalist ruins, its absence was mourned more than its presence was celebrated.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Surviving_Section_of_former_Tricorn_Centre%2C_Portsmouth_%28November_2017%29_%281%29.JPG/1280px-Surviving_Section_of_former_Tricorn_Centre%2C_Portsmouth_%28November_2017%29_%281%29.JPG"
+  },
+  {
+    "id": "goldfinger-homestead",
+    "name": "2 Willow Road",
+    "location": "London, UK",
+    "year": 1939,
+    "architect": "Ernő Goldfinger",
+    "style": "Proto-Brutalism",
+    "tags": [
+      "Residential",
+      "Pioneer"
+    ],
+    "wiki": "2_Willow_Road",
+    "description": "Goldfinger built this as his own home — a modest concrete and brick modernist terrace in Hampstead. Now a National Trust property, it is a museum to the architect whose residential projects for others were anything but modest.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/1_2_3_Willow_Road_Hampstead_London_20050924.JPG/1280px-1_2_3_Willow_Road_Hampstead_London_20050924.JPG"
+  },
+  {
+    "id": "golden-lane-estate",
+    "name": "Golden Lane Estate",
+    "location": "London, UK",
+    "year": 1962,
+    "architect": "Chamberlin, Powell and Bon",
+    "style": "British Brutalism",
+    "tags": [
+      "Social Housing"
+    ],
+    "wiki": "Golden_Lane_Estate",
+    "description": "The prototype for the Barbican — a smaller, equally sophisticated concrete housing estate demonstrating CPB's mastery of community-scaled Brutalism. Its slabs, towers, and rooftop sports courts became the model for the larger Barbican.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Crescent_House%2C_Golden_Lane_Estate%2C_Goswell_Road%2C_EC1_-_geograph.org.uk_-_1069837.jpg"
+  },
+  {
+    "id": "sheffield-university-arts",
+    "name": "Sheffield Arts Tower",
+    "location": "Sheffield, UK",
+    "year": 1965,
+    "architect": "Gollins Melvin Ward",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Arts_Tower",
+    "description": "20 storeys of precise, repeated concrete and glass panels rising above Sheffield — Britain's tallest university building. Its paternoster lift (a continuously moving loop of open platforms) adds a mechanical brutalist poetry to the building's ascent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Park_Hill_Samarkanda.JPG/1280px-Park_Hill_Samarkanda.JPG"
+  },
+  {
+    "id": "iim-ahmedabad",
+    "name": "Indian Institute of Management, Ahmedabad",
+    "location": "Ahmedabad, India",
+    "year": 1962,
+    "architect": "Louis Kahn",
+    "style": "South Asian Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Indian_Institute_of_Management_Ahmedabad",
+    "description": "Kahn's greatest Indian work — a sequence of brick and concrete forms organized around a central diagonal street axis. Its red brick and exposed concrete combination creates a uniquely Indian Brutalism that absorbs both the climate and the Mughal heritage.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Kahn_Plaza%2C_IIM_Ahmedabad.jpg/1280px-Louis_Kahn_Plaza%2C_IIM_Ahmedabad.jpg"
+  },
+  {
+    "id": "palace-of-culture-warsaw",
+    "name": "Palace of Culture and Science",
+    "location": "Warsaw, Poland",
+    "year": 1955,
+    "architect": "Lev Rudnev",
+    "style": "Stalinist Gothic",
+    "tags": [
+      "Soviet",
+      "Iconic"
+    ],
+    "wiki": "Palace_of_Culture_and_Science,_Warsaw",
+    "description": "Stalin's 'gift' to Poland — a 237-meter Stalinist skyscraper in the heart of Warsaw imposing Soviet Gothic monumentality over the reconstructed Polish capital. Its obsessive symmetry and Soviet ornamental spire make it simultaneously absurd and viscerally powerful.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pa%C5%82ac_Kultury_i_Nauki_2019.jpg/1280px-Pa%C5%82ac_Kultury_i_Nauki_2019.jpg"
+  },
+  {
+    "id": "university-of-east-anglia",
+    "name": "University of East Anglia (Ziggurats)",
+    "location": "Norwich, UK",
+    "year": 1966,
+    "architect": "Denys Lasdun",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic",
+      "Social Housing"
+    ],
+    "wiki": "University_of_East_Anglia",
+    "description": "Lasdun's 'ziggurat' stepped terrace student residences descend the hillside above the Norfolk plain — each stepped level a private terrace, the whole composition forming a continuous concrete landscape integrating building and site.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Universit%C3%A4t_von_East_Anglia.jpg/1280px-Universit%C3%A4t_von_East_Anglia.jpg"
+  },
+  {
+    "id": "icc-frankfurt",
+    "name": "International Congress Centre",
+    "location": "Berlin, Germany",
+    "year": 1979,
+    "architect": "Ursulina Schüler-Witte",
+    "style": "German Brutalism",
+    "tags": [
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "International_Congress_Centre_Berlin",
+    "description": "A titanium and aluminium-skinned brutalist spacecraft landed on the Berliner Stadtring motorway. The ICC's futuristic metallic shell contains a vast conference complex — its aggressive, alien scale making it the most science-fiction piece of European civic Brutalism.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Berlin_ICC_Juni_2022_1.jpg/1280px-Berlin_ICC_Juni_2022_1.jpg"
+  },
+  {
+    "id": "glasgow-caledonian",
+    "name": "Hutchesontown E ('The Queen Elizabeth Flats')",
+    "location": "Glasgow, UK",
+    "year": 1968,
+    "architect": "Sam Bunton",
+    "style": "Scottish Brutalism",
+    "tags": [
+      "Social Housing",
+      "Demolished"
+    ],
+    "wiki": "Queen_Elizabeth_Square,_Glasgow",
+    "description": "Glasgow's most notorious brutalist housing towers — 21 storeys of precast concrete panels assembled with deliberately minimal finish. Their swift demolition in 1993 marked the political turning point against brutalist social housing in Scotland.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/East_Glasgow_from_the_air_%28geograph_5374196%29_%28cropped%29.jpg"
+  },
+  {
+    "id": "byker-wall",
+    "name": "Byker Wall",
+    "location": "Newcastle upon Tyne, UK",
+    "year": 1974,
+    "architect": "Ralph Erskine",
+    "style": "Humanist Brutalism",
+    "tags": [
+      "Social Housing",
+      "Iconic"
+    ],
+    "wiki": "Byker_Wall",
+    "description": "A kilometre-long, eight-storey concrete-and-brick wall housing 2,000 people, designed with the existing community rather than for them. Erskine maintained his office in a converted undertakers' parlour on site — the most socially engaged process in British brutalist housing history.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aerial_view_of_Byker%2C_1978_%2826359478946%29.jpg"
+  },
+  {
+    "id": "dunelm-house",
+    "name": "Dunelm House",
+    "location": "Durham, UK",
+    "year": 1966,
+    "architect": "Architects Co-Partnership",
+    "style": "British Brutalism",
+    "tags": [
+      "Civic"
+    ],
+    "wiki": "Dunelm_House",
+    "description": "A cantilevered cascade of raw concrete stepping dramatically down to the River Wear directly beside Durham Cathedral — one of the most striking juxtapositions of medieval and brutalist architecture anywhere in Britain.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dunelm3.jpg"
+  },
+  {
+    "id": "narkomfin-moscow",
+    "name": "Narkomfin Building",
+    "location": "Moscow, Russia",
+    "year": 1932,
+    "architect": "Moisei Ginzburg & Ignaty Milinis",
+    "style": "Soviet Constructivism",
+    "tags": [
+      "Soviet",
+      "Pioneer",
+      "Iconic"
+    ],
+    "wiki": "Narkomfin_Building",
+    "description": "The ur-text of Soviet Constructivist housing — a utopian commune-slab where collective living was encoded in concrete. Ginzburg's floating ribbon of apartments, laundry, gymnasium, and library fused into a single machine for Socialist life. A ghost ship of communal dreams now slowly restored.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Moscow_Narkomfin_6891.jpg/1280px-Moscow_Narkomfin_6891.jpg"
+  },
+  {
+    "id": "house-of-soviets-kaliningrad",
+    "name": "House of Soviets",
+    "location": "Kaliningrad, Russia",
+    "year": 1970,
+    "architect": "Juliy Sverkovsky",
+    "style": "Soviet Modernism",
+    "tags": [
+      "Soviet",
+      "Abandoned",
+      "Iconic"
+    ],
+    "wiki": "House_of_Soviets_(Kaliningrad)",
+    "description": "Nicknamed 'The Buried Robot' and 'Monster', this immense Soviet administrative colossus rose on the ruins of Königsberg's Royal Castle. Construction halted in 1991 with the Soviet collapse, leaving a windowless concrete monolith to stare blankly over the Baltic coast for three decades. Demolished in 2024.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kaliningrad_05-2017_img68_House_of_Soviets.jpg/1280px-Kaliningrad_05-2017_img68_House_of_Soviets.jpg"
+  },
+  {
+    "id": "russian-academy-sciences",
+    "name": "Russian Academy of Sciences",
+    "location": "Moscow, Russia",
+    "year": 1990,
+    "architect": "Yuri Platonov",
+    "style": "Soviet Late Modernism",
+    "tags": [
+      "Soviet",
+      "Iconic"
+    ],
+    "wiki": "Presidium_of_the_Russian_Academy_of_Sciences",
+    "description": "Moscow's golden-crowned monolith — a skyscraper of Soviet science crowned with bizarre gilded mechanical 'brains'. Rising 22 floors above Leninsky Prospekt, its massive concrete frame is topped by two enormous gilt-bronze capitals that Muscovites call 'the golden brains'. A supreme icon of late Soviet ambition.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Moscow_-_2025_-_Building_of_the_Russian_Academy_of_Sciences.jpg/1280px-Moscow_-_2025_-_Building_of_the_Russian_Academy_of_Sciences.jpg"
+  },
+  {
+    "id": "minsk-housing-estates",
+    "name": "Minsk Microrayon Housing Estates",
+    "location": "Minsk, Belarus",
+    "year": 1965,
+    "architect": "Various Soviet Planners",
+    "style": "Soviet Brutalism / Paneľák",
+    "tags": [
+      "Soviet",
+      "Social Housing",
+      "Iconic"
+    ],
+    "wiki": "Minsk",
+    "description": "The monolithic panel-block skylines of Minsk — immortalised as the visual identity of Molchat Doma, the post-punk band whose name means 'houses are silent'. Endless repetitive slabs of prefabricated concrete rising from the Soviet grid, creating landscapes of industrial sublime that haunt an entire generation of post-Soviet aesthetics.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/View_of_Minsk_%28180819%29_09.jpg/1280px-View_of_Minsk_%28180819%29_09.jpg"
+  },
+  {
+    "id": "palace-of-the-republic-minsk",
+    "name": "Palace of the Republic",
+    "location": "Minsk, Belarus",
+    "year": 2001,
+    "architect": "Mikhail Vinogradov",
+    "style": "Soviet Late Modernism",
+    "tags": [
+      "Soviet",
+      "Civic"
+    ],
+    "wiki": "Palace_of_the_Republic_(Minsk)",
+    "description": "Minsk's granite-clad coliseum of state power, occupying the symbolic heart of the capital's vast ceremonial axis. A massive neoclassical-brutalist congress hall housing 2,700 seats, it anchors October Square with the gravity of an authoritarian monolith. Its sheer scale and stone cladding embody Lukashenko-era Soviet nostalgia in concrete.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palace_of_the_Republic_%28Minsk%2C_Belarus%29_01.jpg/1280px-Palace_of_the_Republic_%28Minsk%2C_Belarus%29_01.jpg"
+  },
+  {
+    "id": "kiev-institute-cybernetics",
+    "name": "Institute of Cybernetics",
+    "location": "Kyiv, Ukraine",
+    "year": 1964,
+    "architect": "Vasil Ladny",
+    "style": "Soviet Modernism",
+    "tags": [
+      "Soviet",
+      "Pioneer"
+    ],
+    "wiki": "V._M._Glushkov_Institute_of_Cybernetics",
+    "description": "Kyiv's temple to Soviet computing — a severe rectilinear research fortress where Glushkov's team built the MPCS, a precursor to the internet that the Soviet leadership rejected. Its flat-roofed concrete campus embodies the austere logic of a machine age that believed computation could replace the market entirely.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Pechers%27kyi_district%2C_Kiev%2C_Ukraine_-_panoramio_%28137%29.jpg/1280px-Pechers%27kyi_district%2C_Kiev%2C_Ukraine_-_panoramio_%28137%29.jpg"
+  },
+  {
+    "id": "hotel-intourist-batumi",
+    "name": "Restaurant Fantasia (Batumi)",
+    "location": "Batumi, Georgia",
+    "year": 1982,
+    "architect": "Viktor Jorbenadze",
+    "style": "Soviet Futurism",
+    "tags": [
+      "Soviet",
+      "Iconic"
+    ],
+    "wiki": "Batumi",
+    "description": "Georgia's most surreal Soviet relic — a concrete disc floating on a slender pillar above the Black Sea coast, like a flying saucer that forgot to take off. Built as a high-end restaurant for Soviet tourism, its circular glass-and-concrete form predicts science fiction aesthetics decades ahead of Western design.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Former_Auditorium_of_the_Industrial_Technical_College_in_Tbilisi.jpg/1280px-Former_Auditorium_of_the_Industrial_Technical_College_in_Tbilisi.jpg"
+  },
+  {
+    "id": "tbilisi-wedding-palace",
+    "name": "Wedding Palace",
+    "location": "Tbilisi, Georgia",
+    "year": 1984,
+    "architect": "Victor Djorbenadze",
+    "style": "Soviet Futurism",
+    "tags": [
+      "Soviet",
+      "Iconic"
+    ],
+    "wiki": "Wedding_Palace_(Tbilisi)",
+    "description": "Tbilisi's flying-saucer palace of matrimony — a stacked pair of concrete discs cantilevered over a cliff edge above the Mtkvari River. Where Soviet couples solemnised their union under a mushroom cloud of raw concrete, the structure has since become one of the most photographed post-Soviet landmarks.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Wedding_Palace_Tbilisi.JPG/1280px-Wedding_Palace_Tbilisi.JPG"
+  },
+  {
+    "id": "new-belgrade-housing",
+    "name": "New Belgrade Housing Blocks",
+    "location": "Belgrade, Serbia",
+    "year": 1960,
+    "architect": "Mihajlo Janković & team",
+    "style": "Yugoslav Brutalism",
+    "tags": [
+      "Soviet",
+      "Social Housing",
+      "Megastructure"
+    ],
+    "wiki": "New_Belgrade",
+    "description": "The largest brutalist urban experiment in the Balkans — a vast planned city of concrete panel towers and slabs materialising overnight from a Danube marshland. New Belgrade's monotonous grid of identical blocks became both the symbol of Yugoslav social housing ambition and the post-punk visual landscape of an entire generation.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Novi_Beograd_-_The_SIV_Building.jpg/1280px-Novi_Beograd_-_The_SIV_Building.jpg"
+  },
+  {
+    "id": "habitat-67-montreal",
+    "name": "Habitat 67",
+    "location": "Montreal, Canada",
+    "year": 1967,
+    "architect": "Moshe Safdie",
+    "style": "Metabolist Brutalism",
+    "tags": [
+      "Iconic",
+      "Pioneer"
+    ],
+    "wiki": "Habitat_67",
+    "description": "The stacked concrete puzzle that would change housing theory forever — 354 identical prefabricated modules assembled into 146 unique apartments, each with a private garden rooftop. Built for Expo 67, Safdie's Habitat proved that density and private outdoor space could coexist in concrete, influencing generations of architects who dreamed of a new urban vernacular.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Habitat_67_2019_dllu_01.jpg/1280px-Habitat_67_2019_dllu_01.jpg"
+  },
+  {
+    "id": "french-communist-hq",
+    "name": "French Communist Party HQ",
+    "location": "Paris, France",
+    "year": 1971,
+    "architect": "Oscar Niemeyer",
+    "style": "Modernist Brutalism",
+    "tags": [
+      "Iconic",
+      "Pioneer",
+      "Civic"
+    ],
+    "wiki": "French_Communist_Party_headquarters",
+    "description": "Oscar Niemeyer's gift to the French left — a sinuous white concrete form subverting Haussmann's rigid Paris, a dome half-buried underground like a secret bunker of revolution. The sweeping concave facade and its gleaming skylit congress dome below street level are political architecture at its most theatrical and seductive.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/PCF_HQ_41.JPG/1280px-PCF_HQ_41.JPG"
+  },
+  {
+    "id": "unidade-habitacional-berlin",
+    "name": "Corbusierhaus Berlin",
+    "location": "Berlin, Germany",
+    "year": 1957,
+    "architect": "Le Corbusier",
+    "style": "Brutalist Modernism",
+    "tags": [
+      "Iconic",
+      "Pioneer",
+      "Social Housing"
+    ],
+    "wiki": "Corbusierhaus",
+    "description": "Le Corbusier's isolated tower-city rising from West Berlin's edge — a 1,000-person vertical village of raw concrete and primary colour, built for the 1957 International Building Exhibition. The unité prototype transported to Cold War Germany, where its community living thesis met a divided city's particular longing for utopian order.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Berlin_corbusierhaus_2006.jpg/1280px-Berlin_corbusierhaus_2006.jpg"
+  },
+  {
+    "id": "western-city-gate-belgrade",
+    "name": "Western City Gate (Genex Tower)",
+    "location": "Belgrade, Serbia",
+    "year": 1980,
+    "architect": "Mihajlo Mitrović",
+    "style": "Yugoslav Brutalism",
+    "tags": [
+      "Soviet",
+      "Mega-structure",
+      "Iconic"
+    ],
+    "wiki": "Genex_Tower",
+    "description": "Two towers linked at the 26th floor by a rotating restaurant — Belgrade's most surreal skyline signature. Built as a gateway to the city from the airport, the Genex Tower's twin columns rise from New Belgrade's concrete plain like a brutalist triumphal arch. Its cantilevered skybridge housing contains a circular restaurant that once revolved over the Yugoslav capital.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Genex_Tower_2012.jpg/1280px-Genex_Tower_2012.jpg"
+  },
+  {
+    "id": "ksc-minsk-sports",
+    "name": "Minsk Sports Palace",
+    "location": "Minsk, Belarus",
+    "year": 1966,
+    "architect": "Samuil Fridlyand & Sidor Filipov",
+    "style": "Soviet Modernism",
+    "tags": [
+      "Soviet",
+      "Civic",
+      "Iconic"
+    ],
+    "wiki": "Minsk_Arena",
+    "description": "A vast Soviet concrete amphitheatre anchoring the Svislach riverbank, its massive curved roof sweeping over a 9,000-seat arena. One of the finest examples of Soviet sporting monumentalism, the Sports Palace project fused engineering ambition with ideological grandeur — each facade a statement of socialist might in reinforced concrete.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aleja_Niepdleglosci_Warszawa.JPG/1280px-Aleja_Niepdleglosci_Warszawa.JPG"
+  },
+  {
+    "id": "ufo-bridge-bratislava",
+    "name": "SNP Bridge (UFO Tower)",
+    "location": "Bratislava, Slovakia",
+    "year": 1972,
+    "architect": "Jozef Lacko & Ladislav Kušnír",
+    "style": "Socialist Futurism",
+    "tags": [
+      "Soviet",
+      "Iconic",
+      "Pioneer"
+    ],
+    "wiki": "SNP_Bridge",
+    "description": "The bridge that demolished a medieval Jewish quarter to build the future — Bratislava's most controversial modernist gesture. A single stark asymmetric pylon supports the deck and, perched above it, a flying-saucer observation deck visible for kilometres. Half-brutalist engineering, half Cold War science fiction, it remains the defining image of Slovak Communist modernity.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SNP_Bridge_Bratislava.jpg/1280px-SNP_Bridge_Bratislava.jpg"
+  }
+]
