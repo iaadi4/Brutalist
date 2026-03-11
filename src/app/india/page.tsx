@@ -49,8 +49,8 @@ export default function IndiaBrutalismPage() {
               className={`grid grid-cols-1 lg:grid-cols-12 min-h-[90vh] border-b-[16px] border-[var(--color-brutal-black)] ${index % 2 === 0 ? 'bg-[var(--color-brutal-gray-100)]' : 'bg-[var(--color-brutal-white)]'}`}
             >
               {/* Image Column */}
-              <div className={`col-span-1 lg:col-span-7 ${index % 2 === 0 ? 'order-1 lg:order-2 border-l-[16px]' : 'order-1 lg:order-1 border-r-[16px]'} border-[var(--color-brutal-black)] relative overflow-hidden h-[60vh] lg:h-auto`}>
-                 <GsapParallaxImage src={work.image} alt={work.imageAlt} />
+              <div className={`col-span-1 lg:col-span-7 ${index % 2 === 0 ? 'order-1 lg:order-2 border-l-[16px]' : 'order-1 lg:order-1 border-r-[16px]'} border-[var(--color-brutal-black)] relative overflow-hidden min-h-[60vh] lg:h-auto bg-[var(--color-brutal-black)]`}>
+                 <GsapParallaxImage src={work.image} alt={work.imageAlt} mode="frame" />
                  
                  <div className="absolute top-8 left-8 bg-[var(--color-brutal-yellow)] border-[4px] border-[var(--color-brutal-black)] px-6 py-4 text-4xl font-mono font-black brutal-shadow z-20">
                    {work.year}
@@ -102,8 +102,8 @@ export default function IndiaBrutalismPage() {
                         <div key={i} className="bg-[var(--color-brutal-gray-100)] brutal-border p-8 lg:p-12 flex flex-col gap-8">
                             <h4 className="text-6xl lg:text-7xl font-black uppercase leading-[0.8] tracking-tighter">{item.name}</h4>
                             <span className="font-mono text-3xl font-bold block bg-[var(--color-brutal-red)] text-[var(--color-brutal-white)] w-fit px-4 py-2 brutal-border">{item.year}</span>
-                            <div className="w-full h-[400px] lg:h-[500px] brutal-border overflow-hidden">
-                              <GsapParallaxImage src={item.image} alt={item.imageAlt} />
+                            <div className="w-full min-h-[300px] brutal-border overflow-hidden">
+                              <GsapParallaxImage src={item.image} alt={item.imageAlt} mode="frame" />
                             </div>
                             <p className="text-2xl lg:text-3xl font-medium leading-relaxed text-justify">{item.significance}</p>
                         </div>
@@ -121,8 +121,8 @@ export default function IndiaBrutalismPage() {
                             </div>
                             <h4 className="text-6xl lg:text-7xl font-black uppercase leading-[0.8] tracking-tighter pr-24">{item.name}</h4>
                             <span className="font-mono text-2xl font-bold block bg-[var(--color-brutal-white)] text-[var(--color-brutal-black)] border-[4px] border-[var(--color-brutal-black)] w-fit px-4 py-2">ARCHITECT: {item.architect}</span>
-                            <div className="w-full h-[400px] lg:h-[500px] brutal-border overflow-hidden z-10 relative">
-                              <GsapParallaxImage src={item.image} alt={item.imageAlt} />
+                            <div className="w-full min-h-[300px] brutal-border overflow-hidden z-10 relative">
+                              <GsapParallaxImage src={item.image} alt={item.imageAlt} mode="frame" />
                             </div>
                             <p className="text-2xl lg:text-3xl font-medium leading-relaxed text-justify relative z-10">{item.significance}</p>
                         </div>

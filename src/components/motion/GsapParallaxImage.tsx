@@ -12,14 +12,16 @@ if (typeof window !== "undefined") {
 export function GsapParallaxImage({ 
   src, 
   alt, 
-  className 
+  className,
+  mode = "cover"
 }: { 
   src: string; 
   alt: string; 
   className?: string;
+  mode?: "cover" | "frame";
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLImageElement>(null);
+  const imageRef = useRef<HTMLImageElement | HTMLDivElement>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
@@ -35,14 +37,14 @@ export function GsapParallaxImage({
       scaleY: 0,
       transformOrigin: "bottom",
       duration: 0.8,
-      ease: "power4.inOut" // abrupt snap
+      ease: "power4.inOut"
     });
 
     gsap.fromTo(
       imageRef.current,
-      { y: "-15%" },
+      { y: mode === "cover" ? "-15%" : "-5%" },
       {
-        y: "15%",
+        y: mode === "cover" ? "15%" : "5%",
         ease: "none",
         scrollTrigger: {
           trigger: containerRef.current,
@@ -54,10 +56,31 @@ export function GsapParallaxImage({
     );
   }, { scope: containerRef });
 
+  if (mode === "frame") {
+    return (
+      <div ref={containerRef} className={`relative overflow-hidden w-full h-full flex flex-col items-center justify-center p-8 lg:p-12 border-[8px] border-transparent ${className || ""}`}>
+        {/* Brutalist dot pattern background */}
+        <div className="absolute inset-0 opacity-20 bg-[var(--color-brutal-black)]" style={{ backgroundImage: 'radial-gradient(var(--color-brutal-white) 2px, transparent 2px)', backgroundSize: '16px 16px' }}></div>
+        
+        {/* The Frame */}
+        <div ref={imageRef as React.RefObject<HTMLDivElement>} className="relative z-10 w-full h-full flex items-center justify-center filter drop-shadow-[16px_16px_0px_#000]">
+           <img
+             src={src}
+             alt={alt}
+             className="max-w-full max-h-full object-contain border-[8px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-white)] filter contrast-125 grayscale-[20%]"
+           />
+        </div>
+        
+        <div ref={overlayRef} className="absolute inset-0 bg-[var(--color-brutal-yellow)] z-20 origin-bottom brutal-border"></div>
+      </div>
+    );
+  }
+
+  // Default "cover" mode
   return (
     <div ref={containerRef} className={`relative overflow-hidden w-full h-full bg-[var(--color-brutal-black)] ${className || ""}`}>
       <img
-        ref={imageRef}
+        ref={imageRef as React.RefObject<HTMLImageElement>}
         src={src}
         alt={alt}
         className="absolute inset-0 w-full h-full object-cover scale-[1.3] will-change-transform filter contrast-125 grayscale-[20%]"

@@ -37,8 +37,8 @@ export default function PhilosophyPage() {
                 </p>
               </GsapScrollReveal>
               
-              <GsapScrollReveal className="p-0 border-none relative min-h-[50vh] lg:min-h-full">
-                <GsapParallaxImage src={section.image} alt={section.imageAlt} className="w-full h-full" />
+              <GsapScrollReveal className="p-0 border-none relative min-h-[50vh] lg:min-h-full bg-[var(--color-brutal-black)]">
+                <GsapParallaxImage src={section.image} alt={section.imageAlt} className="w-full h-full" mode="frame" />
               </GsapScrollReveal>
             </div>
           ))}

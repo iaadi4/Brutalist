@@ -53,10 +53,11 @@ export default function OriginsPage() {
                 </div>
                 
                 {/* Massive Image Reveal */}
-                <div className="w-full h-[400px] lg:h-[600px] mb-12 mt-8 brutal-border">
+                <div className="w-full min-h-[300px] mb-12 mt-8 brutal-border">
                   <GsapParallaxImage 
                     src={item.image} 
-                    alt={item.imageAlt} 
+                    alt={item.imageAlt}
+                    mode="frame"
                   />
                 </div>
                 
