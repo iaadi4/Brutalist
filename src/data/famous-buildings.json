@@ -990,66 +990,6 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/View_of_Minsk_%28180819%29_09.jpg/1280px-View_of_Minsk_%28180819%29_09.jpg"
   },
   {
-    "id": "palace-of-the-republic-minsk",
-    "name": "Palace of the Republic",
-    "location": "Minsk, Belarus",
-    "year": 2001,
-    "architect": "Mikhail Vinogradov",
-    "style": "Soviet Late Modernism",
-    "tags": [
-      "Soviet",
-      "Civic"
-    ],
-    "wiki": "Palace_of_the_Republic_(Minsk)",
-    "description": "Minsk's granite-clad coliseum of state power, occupying the symbolic heart of the capital's vast ceremonial axis. A massive neoclassical-brutalist congress hall housing 2,700 seats, it anchors October Square with the gravity of an authoritarian monolith. Its sheer scale and stone cladding embody Lukashenko-era Soviet nostalgia in concrete.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palace_of_the_Republic_%28Minsk%2C_Belarus%29_01.jpg/1280px-Palace_of_the_Republic_%28Minsk%2C_Belarus%29_01.jpg"
-  },
-  {
-    "id": "kiev-institute-cybernetics",
-    "name": "Institute of Cybernetics",
-    "location": "Kyiv, Ukraine",
-    "year": 1964,
-    "architect": "Vasil Ladny",
-    "style": "Soviet Modernism",
-    "tags": [
-      "Soviet",
-      "Pioneer"
-    ],
-    "wiki": "V._M._Glushkov_Institute_of_Cybernetics",
-    "description": "Kyiv's temple to Soviet computing — a severe rectilinear research fortress where Glushkov's team built the MPCS, a precursor to the internet that the Soviet leadership rejected. Its flat-roofed concrete campus embodies the austere logic of a machine age that believed computation could replace the market entirely.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Pechers%27kyi_district%2C_Kiev%2C_Ukraine_-_panoramio_%28137%29.jpg/1280px-Pechers%27kyi_district%2C_Kiev%2C_Ukraine_-_panoramio_%28137%29.jpg"
-  },
-  {
-    "id": "hotel-intourist-batumi",
-    "name": "Restaurant Fantasia (Batumi)",
-    "location": "Batumi, Georgia",
-    "year": 1982,
-    "architect": "Viktor Jorbenadze",
-    "style": "Soviet Futurism",
-    "tags": [
-      "Soviet",
-      "Iconic"
-    ],
-    "wiki": "Batumi",
-    "description": "Georgia's most surreal Soviet relic — a concrete disc floating on a slender pillar above the Black Sea coast, like a flying saucer that forgot to take off. Built as a high-end restaurant for Soviet tourism, its circular glass-and-concrete form predicts science fiction aesthetics decades ahead of Western design.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Former_Auditorium_of_the_Industrial_Technical_College_in_Tbilisi.jpg/1280px-Former_Auditorium_of_the_Industrial_Technical_College_in_Tbilisi.jpg"
-  },
-  {
-    "id": "tbilisi-wedding-palace",
-    "name": "Wedding Palace",
-    "location": "Tbilisi, Georgia",
-    "year": 1984,
-    "architect": "Victor Djorbenadze",
-    "style": "Soviet Futurism",
-    "tags": [
-      "Soviet",
-      "Iconic"
-    ],
-    "wiki": "Wedding_Palace_(Tbilisi)",
-    "description": "Tbilisi's flying-saucer palace of matrimony — a stacked pair of concrete discs cantilevered over a cliff edge above the Mtkvari River. Where Soviet couples solemnised their union under a mushroom cloud of raw concrete, the structure has since become one of the most photographed post-Soviet landmarks.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Wedding_Palace_Tbilisi.JPG/1280px-Wedding_Palace_Tbilisi.JPG"
-  },
-  {
     "id": "new-belgrade-housing",
     "name": "New Belgrade Housing Blocks",
     "location": "Belgrade, Serbia",
@@ -1110,7 +1050,7 @@
     ],
     "wiki": "Corbusierhaus",
     "description": "Le Corbusier's isolated tower-city rising from West Berlin's edge — a 1,000-person vertical village of raw concrete and primary colour, built for the 1957 International Building Exhibition. The unité prototype transported to Cold War Germany, where its community living thesis met a divided city's particular longing for utopian order.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Berlin_corbusierhaus_2006.jpg/1280px-Berlin_corbusierhaus_2006.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Corbusierhaus_Berlin.jpg/1280px-Corbusierhaus_Berlin.jpg"
   },
   {
     "id": "western-city-gate-belgrade",
@@ -1129,22 +1069,6 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Genex_Tower_2012.jpg/1280px-Genex_Tower_2012.jpg"
   },
   {
-    "id": "ksc-minsk-sports",
-    "name": "Minsk Sports Palace",
-    "location": "Minsk, Belarus",
-    "year": 1966,
-    "architect": "Samuil Fridlyand & Sidor Filipov",
-    "style": "Soviet Modernism",
-    "tags": [
-      "Soviet",
-      "Civic",
-      "Iconic"
-    ],
-    "wiki": "Minsk_Arena",
-    "description": "A vast Soviet concrete amphitheatre anchoring the Svislach riverbank, its massive curved roof sweeping over a 9,000-seat arena. One of the finest examples of Soviet sporting monumentalism, the Sports Palace project fused engineering ambition with ideological grandeur — each facade a statement of socialist might in reinforced concrete.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aleja_Niepdleglosci_Warszawa.JPG/1280px-Aleja_Niepdleglosci_Warszawa.JPG"
-  },
-  {
     "id": "ufo-bridge-bratislava",
     "name": "SNP Bridge (UFO Tower)",
     "location": "Bratislava, Slovakia",
@@ -1158,6 +1082,6 @@
     ],
     "wiki": "SNP_Bridge",
     "description": "The bridge that demolished a medieval Jewish quarter to build the future — Bratislava's most controversial modernist gesture. A single stark asymmetric pylon supports the deck and, perched above it, a flying-saucer observation deck visible for kilometres. Half-brutalist engineering, half Cold War science fiction, it remains the defining image of Slovak Communist modernity.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SNP_Bridge_Bratislava.jpg/1280px-SNP_Bridge_Bratislava.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Most_SNP%2C_Bratislava_%28by_Pudelek%29.JPG/1280px-Most_SNP%2C_Bratislava_%28by_Pudelek%29.JPG"
   }
 ]

@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CONCRETE EMPIRE — A Brutalist Architecture Archive
 
-## Getting Started
+> *"The only honest architecture is one that refuses to hide what it is. There is no deception in concrete."*
 
-First, run the development server:
+---
+
+## What is Brutalism?
+
+Brutalism is not brutal. The name comes from *béton brut* — raw concrete — the phrase Le Corbusier used to describe the exposed aggregate that would define a century of architectural honesty. Born in the postwar reconstruction of Europe and reaching its apex during the Cold War arms race of ideas, Brutalism was architecture as ideology: massive, uncompromising, and impossible to ignore.
+
+Where other styles hid their structure behind cladding and ornament, Brutalism wore its skeleton on the outside. Load-bearing walls that *looked* load-bearing. Pipes, ducts, and beams left exposed because concealment would be a lie. Entire cities — Chandigarh, Brasília, New Belgrade — planned from scratch in concrete, as if the material itself could manifest utopia.
+
+Its greatest monuments rose from every corner of the globe: Soviet sanatoriums perched on Georgian cliffs, Yugoslav workers' palaces rising from Belgrade marshland, Indian institutes sculpted from brick by Louis Kahn, British housing estates that promised a revolution in how people lived. Many were demolished. Many were abandoned. The best still stand, raw and unrepentant.
+
+---
+
+## Why This Project
+
+I've been obsessed with Brutalism for as long as I can remember — not in spite of its harshness, but because of it. There's something deeply honest about a building that refuses to perform beauty, that insists on showing you exactly what it's made of and how it stands. In an era of algorithm-optimised facades and AI-generated blandness, concrete feels almost radical.
+
+This platform is my attempt to document that obsession. A fast, immersive, opinionated archive of the buildings I find most compelling — from the famous (the Barbican, the Salk Institute, Habitat 67) to the obscure (forgotten Soviet microrayon housing blocks, abandoned Yugoslav party monuments). Every entry has a description I wrote myself, reflecting what I actually find interesting about the building, not what a guidebook says.
+
+It's also a love letter to the aesthetic of post-punk bands like Molchat Doma, whose Minsk panel-block imagery turned an entire generation of music listeners into accidental brutalism fans.
+
+---
+
+## Tech Stack
+
+- **Framework** — [Next.js 15](https://nextjs.org) (App Router)
+- **Language** — TypeScript
+- **Styling** — Vanilla CSS with custom design tokens
+- **Animations** — GSAP ScrollTrigger + Framer Motion
+- **Data** — Curated hand-written JSON (`src/data/famous-buildings.json`)
+- **Images** — Wikimedia Commons (free licence)
+
+---
+
+## Running Locally
 
 ```bash
+git clone https://github.com/iaadi4/Brutalist.git
+cd Brutalist
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
+This is an open archive — it gets better with more eyes on it. Contributions are warmly welcome in any of these forms:
 
-To learn more about Next.js, take a look at the following resources:
+### Add a Building
+The main data file is [`src/data/famous-buildings.json`](./src/data/famous-buildings.json). Each entry follows this schema:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+{
+  "id": "unique-kebab-case-id",
+  "name": "Building Name",
+  "location": "City, Country",
+  "year": 1968,
+  "architect": "Architect Name",
+  "style": "Style Label",
+  "tags": ["Soviet", "Iconic"],
+  "wiki": "Wikipedia_Article_Title",
+  "description": "Your take on why this building matters. Be specific, be opinionated.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/..."
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Image guidelines:**
+- Use direct Wikimedia Commons `upload.wikimedia.org` URLs (free licence, reliable CDN)
+- Prefer `1280px-` thumbnail width
+- The image must show the **building exterior** — no portraits, logos, or generic street scenes
+- Verify the URL returns HTTP 200 before submitting
 
-## Deploy on Vercel
+**Valid tags:** `Soviet`, `Iconic`, `Abandoned`, `Social Housing`, `Civic`, `Pioneer`, `Megastructure`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Fix a Wrong Image
+Found a building with a portrait instead of the actual building? Open an issue or submit a PR fixing the `image` field. Images sourced from Wikipedia's pageimages API are notoriously unreliable — fixes are always appreciated.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Request a Building
+Open a [GitHub Issue](https://github.com/iaadi4/Brutalist/issues) with:
+- Building name and location
+- A direct Wikimedia Commons image URL
+- A short description of why it belongs here
+
+### Report a Bug
+Open an issue with steps to reproduce. Include the page URL and browser if relevant.
+
+---
+
+## Licence
+
+MIT — use it, fork it, build on it.
+
+---
+
+<p align="center">
+  Built in concrete. Served in pixels.
+</p>

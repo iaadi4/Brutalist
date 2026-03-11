@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <!-- Black background -->
+  <rect width="32" height="32" fill="#0a0a0a"/>
+
+  <!-- Brutalist building silhouette - asymmetric stacked concrete blocks -->
+  <!-- Base slab - full width -->
+  <rect x="2" y="26" width="28" height="4" fill="#e8e8e8"/>
+  <!-- Main tower body left -->
+  <rect x="2" y="10" width="14" height="16" fill="#c8c8c8"/>
+  <!-- Main tower body right - offset/shorter -->
+  <rect x="18" y="14" width="12" height="12" fill="#d0d0d0"/>
+  <!-- Upper left block - cantilevered -->
+  <rect x="2" y="4" width="10" height="6" fill="#b8b8b8"/>
+  <!-- Upper right block - stepped -->
+  <rect x="14" y="7" width="7" height="3" fill="#c0c0c0"/>
+  <!-- Top cap - narrow, offset left -->
+  <rect x="4" y="2" width="6" height="2" fill="#a8a8a8"/>
+
+  <!-- Window grids - brutalist rhythm -->
+  <!-- Left tower windows -->
+  <rect x="4" y="12" width="2" height="3" fill="#0a0a0a"/>
+  <rect x="8" y="12" width="2" height="3" fill="#0a0a0a"/>
+  <rect x="4" y="17" width="2" height="3" fill="#0a0a0a"/>
+  <rect x="8" y="17" width="2" height="3" fill="#0a0a0a"/>
+  <!-- Right tower windows -->
+  <rect x="20" y="16" width="2" height="3" fill="#0a0a0a"/>
+  <rect x="25" y="16" width="2" height="3" fill="#0a0a0a"/>
+  <rect x="20" y="21" width="2" height="2" fill="#0a0a0a"/>
+  <rect x="25" y="21" width="2" height="2" fill="#0a0a0a"/>
+  <!-- Upper block windows -->
+  <rect x="4" y="5" width="2" height="2" fill="#0a0a0a"/>
+  <rect x="8" y="5" width="2" height="2" fill="#0a0a0a"/>
+
+  <!-- Accent line - yellow brutalist stripe -->
+  <rect x="2" y="25" width="28" height="1" fill="#f5e642"/>
+</svg>
