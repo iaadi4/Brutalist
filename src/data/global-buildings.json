@@ -1,0 +1,56 @@
+[
+  {
+    "id": "unite-dhabitation",
+    "name": "Unité d'Habitation",
+    "architect": "Le Corbusier",
+    "year": 1952,
+    "location": "Marseille, France",
+    "coordinates": "43.261° N, 5.396° E",
+    "technical_details": "The absolute genesis of the movement. Raised on massive pilotis, this vertical garden city exposed its raw concrete (béton brut) bearing the literal grain of the wooden shuttering used to cast it. It integrated deep brise-soleils and polychromatic loggias, introducing the Modulor proportioning system to govern its entire spatial logic."
+  },
+  {
+    "id": "boston-city-hall",
+    "name": "Boston City Hall",
+    "architect": "Kallmann McKinnell & Knowles",
+    "year": 1968,
+    "location": "Boston, Massachusetts, USA",
+    "coordinates": "42.360° N, 71.057° W",
+    "technical_details": "A masterclass in programmatic articulation. The building's massive, top-heavy structural grid physically expresses its internal civic hierarchy—the mayor's office and council chambers protrude violently from the facade. Precast concrete fins bracket massive expanses of glass, rooting governmental authority in sheer, unyielding mass."
+  },
+  {
+    "id": "habitat-67",
+    "name": "Habitat 67",
+    "architect": "Moshe Safdie",
+    "year": 1967,
+    "location": "Montreal, Quebec, Canada",
+    "coordinates": "45.500° N, 73.544° W",
+    "technical_details": "An unprecedented experiment in high-density urban living. Constructed from 354 identical, modular, load-bearing concrete boxes connected via high-tension structural steel cables. It decentralized the brutalist monolith, creating a staggered, fractal geometry where the roof of one module became the hanging garden terrace of another."
+  },
+  {
+    "id": "trellick-tower",
+    "name": "Trellick Tower",
+    "architect": "Ernő Goldfinger",
+    "year": 1972,
+    "location": "London, UK",
+    "coordinates": "51.523° N, 0.205° W",
+    "technical_details": "The terrifyingly elegant pinnacle of British high-rise brutalism. Defined by its stark separation of function: a slender, free-standing service tower containing the elevators, stairs, and boiler house is connected to the massive residential slab via elevated walkways at every third floor. Its severe, unyielding profile dominates the west London skyline."
+  },
+  {
+    "id": "barbican-estate",
+    "name": "Barbican Estate",
+    "architect": "Chamberlin, Powell and Bon",
+    "year": 1982,
+    "location": "London, UK",
+    "coordinates": "51.520° N, 0.094° W",
+    "technical_details": "A sprawling, utopian megastructure built to resurrect a WWII-bombed precinct. It employs a distinctive bush-hammered concrete finish, pioneered through immense manual labor to age beautifully and resist water stains better than raw casting. The complex features elevated pedways, sunken lakes, and a labyrinth of muscular concrete forms creating an isolated fortress in the city."
+  },
+  {
+    "id": "geisel-library",
+    "name": "Geisel Library",
+    "architect": "William Pereira",
+    "year": 1970,
+    "location": "La Jolla, California, USA",
+    "coordinates": "32.881° N, 117.237° W",
+    "technical_details": "A dramatic collision of Brutalism and Futurism. Rising from a sunken, stepped plaza, massive load-bearing concrete piers taper sharply outward to support the glass-enclosed upper levels, defying traditional compression logic. The heavy concrete core anchors what appears to be a hovering, geometric crystalline lantern."
+  }
+]

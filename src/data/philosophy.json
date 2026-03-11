@@ -1,0 +1,31 @@
+{
+  "core_ethos": {
+    "title": "An Ethic, Not An Aesthetic",
+    "originators": "Alison and Peter Smithson",
+    "description": "For the Smithsons and their contemporaries, Brutalism was a moral crusade. It explicitly reacted against the frivolous, lightweight slickness of 1930s modernism and the perceived deceit of concealed structures. Brutalism demanded an unflinching honesty: materials must remain 'as found,' mechanical systems should be exposed, and the building must communicate its sociopolitical purpose without apology."
+  },
+  "team_10": {
+    "manifesto": "The Doorn Manifesto (1954)",
+    "significance": "Emerging as a militant splinter group from CIAM, Team 10 argued that postwar architecture had to move beyond abstract urban zoning. They championed intimate human association, proposing that architecture should reflect the complex, raw reality of working-class communities—streets in the sky, clustered networks, and immense structural legibility."
+  },
+  "economics": {
+    "context": "Post-WWII Reconstruction",
+    "impact": "In devastated European cities, Brutalism married ideological honesty with economic desperation. Concrete was cheap, abundant, and could be poured en masse. The state required massive welfare infrastructure—schools, hospitals, council housing—built quickly to forge a new egalitarian society. Brutalism thereby became the de facto official architecture of the social democratic welfare state."
+  },
+  "timeline": {
+    "rise": "1950s - 1960s: The Zenith of Structural Honesty and Institutional Expansion",
+    "downfall": {
+      "era": "Late 1970s - 1980s",
+      "factors": [
+        "Sociological: Unfair association with urban decay and concentrated poverty as welfare states retreated and maintenance budgets were slashed.",
+        "Political: The unyielding grey concrete was unfairly recast as authoritarian, totalitarian, and oppressive (the 'concrete jungle' trope).",
+        "Material: Untreated béton brut weathered incredibly poorly in the damp, freezing climates of Britain and Northern Europe. Severe water staining, rust-bleeding from exposed rebar, and spalling accelerated physical decay."
+      ]
+    },
+    "revival": {
+      "era": "21st Century",
+      "movement": "#SOSBrutalism",
+      "context": "As the original structures faced wholesale demolition, a new generation woke to Brutalism's monumental ambition and spatial genius. Driven heavily by internet archiving, photography, and the #SOSBrutalism campaign, the movement shifted from being universally reviled to being actively conserved as the last era of genuinely heroic, civic-minded public architecture."
+    }
+  }
+}

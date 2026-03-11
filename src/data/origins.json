@@ -1,0 +1,25 @@
+{
+  "origins": [
+    {
+      "id": "beton-brut",
+      "title": "Béton Brut: The Raw Core",
+      "figure": "Le Corbusier",
+      "year": 1952,
+      "content": "The etymological root of Brutalism traces back to Le Corbusier's phrase 'béton brut'—raw concrete. This was not merely an aesthetic choice, but an ideological and economic necessity in post-war France, manifesting purely in the Unité d'Habitation in Marseille. The wooden formwork left its permanent scar on the concrete, signaling a total rejection of bourgeois ornamentation and celebrating the violent friction of construction."
+    },
+    {
+      "id": "nybrutalism",
+      "title": "Nybrutalism & The Swedish Precedent",
+      "figure": "Hans Asplund",
+      "year": 1950,
+      "content": "The term was playfully coined as 'nybrutalism' by Swedish architect Hans Asplund to describe Villa Göth in Uppsala. The term was rapidly appropriated by English architects visiting Sweden, stripping it of its initially pejorative undertone to describe a rigorous, unapologetic return to primary materials and severe geometric massing."
+    },
+    {
+      "id": "new-brutalism-banham",
+      "title": "The New Brutalism: Ethic or Aesthetic?",
+      "figure": "Reyner Banham",
+      "year": 1955,
+      "content": "In his seminal 1955 essay for the Architectural Review, Reyner Banham codified the movement. He asserted it was 'an ethic, not an aesthetic,' summarizing its tenets as: 1. Memorability as an Image, 2. Clear exhibition of Structure, and 3. Valuation of Materials 'as found.' Banham established Brutalism not as a fleeting style, but as a moral imperative demanding structural truth."
+    }
+  ]
+}
