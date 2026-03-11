@@ -1,0 +1,77 @@
+{
+  "name": "BRUTALISM: Ethic, Not Aesthetic",
+  "short_name": "Brutalism Archive",
+  "description": "An interactive, deep-dive archive into the global history and philosophy of Brutalist Architecture.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "categories": ["architecture", "history", "reference"],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/og-image-square.png",
+      "sizes": "800x800",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "shortcuts": [
+    {
+      "name": "Origins of Brutalism",
+      "short_name": "Origins",
+      "description": "Explore the origins and history of Brutalist architecture",
+      "url": "/history",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Brutalist Philosophy",
+      "short_name": "Philosophy",
+      "description": "Understand the ethical foundations of Brutalism",
+      "url": "/philosophy",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Global Gallery",
+      "short_name": "Gallery",
+      "description": "Explore the world's most iconic Brutalist buildings",
+      "url": "/global-gallery",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

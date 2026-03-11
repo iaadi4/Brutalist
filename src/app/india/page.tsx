@@ -2,55 +2,91 @@ import indiaData from "@/data/india-brutalism.json";
 import { PageTransition } from "@/components/motion/PageTransition";
 import { GsapScrollReveal } from "@/components/motion/GsapScrollReveal";
 import { GsapParallaxImage } from "@/components/motion/GsapParallaxImage";
+import { generateBuildingSchema, generateBreadcrumbSchema } from "@/lib/seo-schemas";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app";
 
 export default function IndiaBrutalismPage() {
+  // Generate breadcrumb schema
+  const breadcrumbs = [
+    { name: 'Home', url: siteUrl },
+    { name: 'Indian Brutalism', url: `${siteUrl}/india` },
+  ];
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbs);
+
+  // Generate building schemas for major Indian works
+  const buildingSchemas = indiaData.masterworks.slice(0, 5).map((building) =>
+    generateBuildingSchema(
+      building.name,
+      building.location,
+      building.year,
+      building.architect,
+      building.description
+    )
+  );
+
   return (
     <PageTransition>
-      <div className="flex flex-col min-h-screen bg-[var(--color-brutal-bg)]">
-        
-        {/* Hero Pinned Start Section */}
-        <header className="relative min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-[16px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-cyan)] overflow-hidden">
-          <div className="absolute top-0 right-0 w-2/3 h-full opacity-40 mix-blend-multiply pointer-events-none">
-             <GsapParallaxImage src="/images/india-hero-texture.png" alt="Concrete Texture" />
-          </div>
-          
-          <GsapScrollReveal className="relative z-10 w-full flex flex-col justify-end">
-            <h1 className="text-massive max-w-[90vw] break-words text-[var(--color-brutal-black)] uppercase leading-[0.8] mb-8">
-              THE<br/>SUBCONTINENTAL<br/>MONOLITH
-            </h1>
-            <div className="bg-[var(--color-brutal-black)] text-[var(--color-brutal-yellow)] px-6 py-4 text-3xl lg:text-5xl font-mono font-black brutal-border inline-block max-w-5xl">
-              {indiaData.section}
+      <>
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+          suppressHydrationWarning
+        />
+        {buildingSchemas.map((schema, idx) => (
+          <script
+            key={`building-${idx}`}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            suppressHydrationWarning
+          />
+        ))}
+
+        <div className="flex flex-col min-h-screen bg-[var(--color-brutal-bg)]">
+          {/* Hero Pinned Start Section */}
+          <header className="relative min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-[16px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-cyan)] overflow-hidden">
+            <div className="absolute top-0 right-0 w-2/3 h-full opacity-40 mix-blend-multiply pointer-events-none">
+               <GsapParallaxImage src="/images/india-hero-texture.png" alt="Concrete Texture" />
             </div>
-          </GsapScrollReveal>
-        </header>
-
-        {/* Intro */}
-        <section className="col-span-12 p-8 lg:p-24 border-b-[8px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-white)] relative min-h-[70vh] flex items-center">
-            <GsapScrollReveal>
-                <div className="w-24 h-24 bg-[var(--color-brutal-red)] border-[4px] border-[var(--color-brutal-black)] absolute top-0 -translate-y-1/2 left-8 lg:left-24 rotate-45 z-10"></div>
-                <h2 className="text-5xl lg:text-7xl font-black uppercase mb-12 font-mono text-[var(--color-brutal-red)] tracking-tighter">
-                  // INTRODUCTION
-                </h2>
-                <p className="text-2xl lg:text-4xl font-medium leading-[1.4] max-w-7xl font-sans lg:columns-2 gap-16 text-justify">
-                  {indiaData.introduction}
-                </p>
+            
+            <GsapScrollReveal className="relative z-10 w-full flex flex-col justify-end">
+              <h1 className="text-massive max-w-[90vw] break-words text-[var(--color-brutal-black)] uppercase leading-[0.8] mb-8">
+                THE<br/>SUBCONTINENTAL<br/>MONOLITH
+              </h1>
+              <div className="bg-[var(--color-brutal-black)] text-[var(--color-brutal-yellow)] px-6 py-4 text-3xl lg:text-5xl font-mono font-black brutal-border inline-block max-w-5xl">
+                {indiaData.section}
+              </div>
             </GsapScrollReveal>
-        </section>
+          </header>
 
-        {/* Masterworks */}
-        <section className="flex flex-col relative">
-          <div className="bg-[var(--color-brutal-black)] p-8 lg:p-12 text-[var(--color-brutal-white)] border-b-[8px] border-[var(--color-brutal-yellow)] sticky top-0 z-50">
-            <h2 className="text-6xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.8]">STATECRAFT & MASTERWORKS</h2>
-          </div>
-          
-          {indiaData.masterworks.map((work, index) => (
-            <article 
-              key={work.id} 
-              className={`grid grid-cols-1 lg:grid-cols-12 min-h-[90vh] border-b-[16px] border-[var(--color-brutal-black)] ${index % 2 === 0 ? 'bg-[var(--color-brutal-gray-100)]' : 'bg-[var(--color-brutal-white)]'}`}
-            >
-              {/* Image Column */}
-              <div className={`col-span-1 lg:col-span-7 ${index % 2 === 0 ? 'order-1 lg:order-2 border-l-[16px]' : 'order-1 lg:order-1 border-r-[16px]'} border-[var(--color-brutal-black)] relative overflow-hidden min-h-[60vh] lg:h-auto bg-[var(--color-brutal-black)]`}>
-                 <GsapParallaxImage src={work.image} alt={work.imageAlt} mode="frame" />
+          {/* Intro */}
+          <section className="col-span-12 p-8 lg:p-24 border-b-[8px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-white)] relative min-h-[70vh] flex items-center">
+              <GsapScrollReveal>
+                  <div className="w-24 h-24 bg-[var(--color-brutal-red)] border-[4px] border-[var(--color-brutal-black)] absolute top-0 -translate-y-1/2 left-8 lg:left-24 rotate-45 z-10"></div>
+                  <h2 className="text-5xl lg:text-7xl font-black uppercase mb-12 font-mono text-[var(--color-brutal-red)] tracking-tighter">
+                    // INTRODUCTION
+                  </h2>
+                  <p className="text-2xl lg:text-4xl font-medium leading-[1.4] max-w-7xl font-sans lg:columns-2 gap-16 text-justify">
+                    {indiaData.introduction}
+                  </p>
+              </GsapScrollReveal>
+          </section>
+
+          {/* Masterworks */}
+          <section className="flex flex-col relative">
+            <div className="bg-[var(--color-brutal-black)] p-8 lg:p-12 text-[var(--color-brutal-white)] border-b-[8px] border-[var(--color-brutal-yellow)] sticky top-0 z-50">
+              <h2 className="text-6xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.8]">STATECRAFT & MASTERWORKS</h2>
+            </div>
+            
+            {indiaData.masterworks.map((work, index) => (
+              <article 
+                key={work.id} 
+                className={`grid grid-cols-1 lg:grid-cols-12 min-h-[90vh] border-b-[16px] border-[var(--color-brutal-black)] ${index % 2 === 0 ? 'bg-[var(--color-brutal-gray-100)]' : 'bg-[var(--color-brutal-white)]'}`}
+              >
+                {/* Image Column */}
+                <div className={`col-span-1 lg:col-span-7 ${index % 2 === 0 ? 'order-1 lg:order-2 border-l-[16px]' : 'order-1 lg:order-1 border-r-[16px]'} border-[var(--color-brutal-black)] relative overflow-hidden min-h-[60vh] lg:h-auto bg-[var(--color-brutal-black)]`}>
+                   <GsapParallaxImage src={work.image} alt={work.imageAlt} mode="frame" />
                  
                  <div className="absolute top-8 left-8 bg-[var(--color-brutal-yellow)] border-[4px] border-[var(--color-brutal-black)] px-6 py-4 text-4xl font-mono font-black brutal-shadow z-20">
                    {work.year}
@@ -131,7 +167,8 @@ export default function IndiaBrutalismPage() {
             </div>
         </section>
 
-      </div>
+        </div>
+      </>
     </PageTransition>
   );
 }

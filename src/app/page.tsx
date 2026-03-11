@@ -2,6 +2,40 @@ import { PageTransition } from "@/components/motion/PageTransition";
 import { GsapScrollReveal } from "@/components/motion/GsapScrollReveal";
 import { GsapParallaxImage } from "@/components/motion/GsapParallaxImage";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateOrganizationSchema } from "@/lib/seo-schemas";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app";
+
+export const metadata: Metadata = {
+  title: "BRUTALISM: Ethic, Not Aesthetic | Home",
+  description:
+    "Discover Brutalism—an ethical architectural movement, not an aesthetic choice. Explore the origins, philosophy, and iconic brutalist buildings from around the world.",
+  keywords: [
+    "brutalism",
+    "brutalist architecture",
+    "modernist ethics",
+    "architectural philosophy",
+  ],
+  openGraph: {
+    title: "BRUTALISM: Ethic, Not Aesthetic",
+    description:
+      "Discover Brutalism—an ethical architectural movement, not an aesthetic choice. Explore the origins, philosophy, and iconic buildings.",
+    url: siteUrl,
+    type: "website",
+    images: [
+      {
+        url: `${siteUrl}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "BRUTALISM Home",
+      },
+    ],
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
+};
 
 export default function Home() {
   return (
