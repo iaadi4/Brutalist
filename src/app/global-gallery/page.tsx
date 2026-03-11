@@ -10,7 +10,7 @@ export default function GlobalGalleryPage() {
         {/* Title Panel */}
         <div className="panel w-[100vw] h-screen flex-shrink-0 flex items-center justify-center relative border-r-[16px] border-[var(--color-brutal-white)] bg-[var(--color-brutal-red)] z-10">
           <div className="absolute inset-0 opacity-20 mix-blend-multiply pointer-events-none">
-             <GsapParallaxImage src="https://source.unsplash.com/random/2000x1200/?brutalism,concrete,facade" alt="Global Brutalism Texture" />
+             <GsapParallaxImage src="/images/global-hero-texture.png" alt="Global Brutalism Texture" />
           </div>
           <div className="relative z-10 p-16 bg-[var(--color-brutal-black)] text-white brutal-border brutal-shadow my-auto">
              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8] mb-8 text-[var(--color-brutal-white)]">

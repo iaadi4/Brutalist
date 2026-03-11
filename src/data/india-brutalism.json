@@ -8,7 +8,7 @@
       "architect": "Le Corbusier",
       "year": 1951,
       "location": "Chandigarh, India",
-      "image": "https://images.unsplash.com/photo-1549487961-c3b64cd95ff1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "image": "/images/chandigarh-capitol-9317.jpg",
       "imageAlt": "The sweeping, sculptural concrete parasol roof of the Palace of Assembly, Chandigarh",
       "description": "Le Corbusier's masterplan for the new capital city of Punjab, Chandigarh, stands as the absolute colossal zenith of Brutalist urban planning. Commissioned directly by Nehru to build a city 'unfettered by the traditions of the past,' Corbusier responded with an unprecedented exercise in monumental scale and pure geometric form. The Capitol Complex—comprising the Secretariat, the High Court, and the Palace of Assembly—is entirely composed of vast, aggressively exposed concrete volumes. The genius of Chandigarh lies in Corbusier's radical translation of his European Brutalist vocabulary to address the extreme Indian climate. Recognizing that glass curtain walls would create uninhabitable greenhouses under the punishing north Indian sun, he invented a monumental architectural shading device: the brise-soleil. The facades of the Secretariat and the High Court are entirely defined by massive, deeply recessed concrete grids that block direct sunlight while permitting cross-ventilation. At the Palace of Assembly, he capped the monumental legislative chamber with a colossal, upward-sweeping hyperbolic paraboloid concrete parasol roof—a sculptural tour de force that deflects monsoon rains while acting as a monumental aesthetic crown. The entirety of the complex relies heavily on board-marked concrete, visibly celebrating the intense manual labor of the thousands of Indian workers who cast the heroic structures. Chandigarh is not merely a collection of Brutalist buildings; it is an aggressively modern state apparatus rendered entirely in raw earth and cement."
     },
@@ -18,7 +18,7 @@
       "architect": "Balkrishna Doshi",
       "year": 1973,
       "location": "Bangalore, Karnataka, India",
-      "image": "https://images.unsplash.com/photo-1555986899-73138b2d7cd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "image": "/images/iim-bangalore-9525.jpg",
       "imageAlt": "IIM Bangalore's deeply shaded stone and concrete corridors with rigorous geometric shadows",
       "description": "Balkrishna Doshi (a protégé of Le Corbusier) achieved a breathtaking masterpiece of 'porous Brutalism' at the Indian Institute of Management (IIM) in Bangalore. While Corbusier's Chandigarh was largely defined by monumental, isolated objects placed upon a vast plain, Doshi recognized that true Indian urbanism relies on dense, shaded, labyrinthine spatial configurations. He merged the heroic, unyielding palette of Brutalism—specifically utilizing massive expanses of exposed, board-marked concrete intermixed with hand-chipped local granite—with the spatial logic of traditional Indian temple complexes and bazaars. IIM Bangalore rejects the traditional enclosed, massive institutional block. Instead, it is organized around a staggering network of semi-open, deeply shaded internal 'streets' and interconnected courtyards. Colossal concrete pergolas and intersecting overhead walkways filter the intense southern sun, creating a sanctuary of dappled light and profound, rigorous geometric shadow. The architecture is heavy, grave, and unmistakably brutal in its material honesty, yet the spatial experience is fluid, continuous, and deeply integrated with the lush tropical landscape. Doshi proved that Brutalism could be highly responsive, intimately scaled, and uniquely indigenous to the subcontinent without sacrificing its monumental gravitas."
     },
@@ -28,7 +28,7 @@
       "architect": "Kuldip Singh",
       "year": 1980,
       "location": "New Delhi, India",
-      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+      "image": "/images/ncdc-delhi.png",
       "imageAlt": "The massive, leaning twin brutalist towers connected by staggered concrete floors",
       "description": "An idiosyncratic, breathtaking zenith of Indian structural Brutalism, designed by Kuldip Singh. The headquarters of the National Cooperative Development Corporation (NCDC)—affectionately nicknamed the 'Pyjama Building' due to its peculiar, twin-legged silhouette—represents an absolute, unyielding engineering feat. Unlike traditional vertical towers or horizontal functionalist slabs, the NCDC Building is characterized by two massive, distinctively outward-leaning raw concrete structural cores. These colossal pylons contain the vertical circulation (elevators and stairs) and the essential services. In a terrifying display of structural tension, the entire stack of eight office floors is violently suspended—staggered and zig-zagging—between these two leaning cores, completely devoid of centralized load-bearing columns. The resulting aesthetic is aggressively massive; a monumental, concrete arch imposing its incredibly distinct, muscular profile against the Delhi skyline. Like many structures of the era, the building wears its construction history proudly; the entirety of the exterior was left in exposed concrete. More remarkably, Singh engineered this incredibly tense, monumental structural system entirely on traditional drafting boards without the aid of modern computerized structural modeling software. It stands as an emphatic, muscular statement of Indian public sector power and sheer engineering bravado during the peak of the state-sponsored architectural expansion."
     }
@@ -40,7 +40,7 @@
       {
         "name": "The Golghar",
         "year": 1786,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Golghar%2C_Patna.jpg",
+        "image": "/images/the-golghar.png",
         "imageAlt": "The colossal brick stupa-like granary, a sheer, unadorned structural mass",
         "significance": "Constructed by the East India Company strictly as an immense granary following devastating famines, the Golghar is a brutal lesson in singular, unadorned functionalist mass. Its continuous, stupa-like brick curve strictly lacks any ornamentation, dictating its imposing, terrifying form entirely through extreme utilitarian volumetric necessity. It serves as an early, proto-brutalist example of architecture entirely stripped of deceit."
       }
@@ -50,7 +50,7 @@
         "name": "Bihar Museum",
         "architect": "Maki and Associates & Opolis",
         "year": 2015,
-        "image": "https://images.unsplash.com/photo-1541888075768-e35fe80bdc07?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+        "image": "/images/bihar-museum.png",
         "imageAlt": "Weathering steel and concrete volumes defining modern architectural mass",
         "significance": "A sprawling campus that fundamentally reinterprets monumental scale through modern, decentralized spatial dynamics. It heavily relies on weathering Corten steel and raw, extremely heavy concrete forms that coalesce into sharp, asymmetrical geometric volumes. Rather than presenting a single, imposing facade (as a traditional colonial museum would), it shatters the static singularity of older civic buildings, creating a fluid, yet undeniably heavy material experience."
       },
@@ -58,7 +58,7 @@
         "name": "The Veiled Building",
         "architect": "KUN Studio",
         "location": "Patna, Bihar",
-        "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+        "image": "/images/the-veiled-building-1971.jpg",
         "imageAlt": "A severe concrete facade utilized to mitigate aggressive heat",
         "significance": "A contemporary, hyper-local exploration of severe, heavy concrete screening. It inherits the traditional Indian 'jaali' (screen) but explicitly takes the Brutalist obsession with 'truth to materials' and applies it aggressively to environmental mitigation. It uses harsh, perforated, unyielding concrete shells to severely filter brutal heat while presenting an impenetrable, almost hostile facade to the chaotic street—a modern continuation of the Brutalist impulse to fortify against an unforgiving exterior."
       }

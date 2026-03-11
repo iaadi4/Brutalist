@@ -10,7 +10,7 @@ export default function OriginsPage() {
       <div className="flex flex-col min-h-screen">
         <header className="p-8 lg:p-16 bg-[var(--color-brutal-yellow)] border-b-[8px] border-[var(--color-brutal-black)] relative overflow-hidden">
           <div className="absolute top-0 right-0 w-1/2 h-full opacity-30 mix-blend-multiply pointer-events-none hidden md:block">
-             <GsapParallaxImage src="https://source.unsplash.com/random/1200x800/?brutalism,concrete,texture" alt="Brutalist Texture" />
+             <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Texture" />
           </div>
           <GsapScrollReveal className="relative z-10">
             <h1 className="text-massive max-w-[90vw] break-words uppercase">Origins</h1>
@@ -55,8 +55,8 @@ export default function OriginsPage() {
                 {/* Massive Image Reveal */}
                 <div className="w-full h-[400px] lg:h-[600px] mb-12 mt-8 brutal-border">
                   <GsapParallaxImage 
-                    src={`https://source.unsplash.com/random/1600x900/?brutalist,concrete,architecture&sig=${index}`} 
-                    alt={`Brutalist context for ${item.title}`} 
+                    src={item.image} 
+                    alt={item.imageAlt} 
                   />
                 </div>
                 

@@ -55,7 +55,7 @@ export function GsapParallaxImage({
   }, { scope: containerRef });
 
   return (
-    <div ref={containerRef} className={`relative overflow-hidden bg-[var(--color-brutal-black)] ${className || ""}`}>
+    <div ref={containerRef} className={`relative overflow-hidden w-full h-full bg-[var(--color-brutal-black)] ${className || ""}`}>
       <img
         ref={imageRef}
         src={src}

@@ -10,7 +10,7 @@ export default function PhilosophyPage() {
         {/* Hero Section */}
         <section className="min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-[8px] border-[var(--color-brutal-white)] relative overflow-hidden">
           <div className="absolute inset-0 opacity-40 mix-blend-screen pointer-events-none">
-             <GsapParallaxImage src="https://source.unsplash.com/random/2000x1200/?concrete,texture,brutalist,abstract" alt="Brutalist Texture" />
+             <GsapParallaxImage src="/images/philosophy-hero-texture.png" alt="Brutalist Texture" />
           </div>
           
           <GsapScrollReveal className="relative z-10 w-full flex justify-between items-end">

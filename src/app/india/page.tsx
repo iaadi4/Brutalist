@@ -11,7 +11,7 @@ export default function IndiaBrutalismPage() {
         {/* Hero Pinned Start Section */}
         <header className="relative min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-[16px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-cyan)] overflow-hidden">
           <div className="absolute top-0 right-0 w-2/3 h-full opacity-40 mix-blend-multiply pointer-events-none">
-             <GsapParallaxImage src="https://source.unsplash.com/random/2000x1600/?concrete,texture,indian,architecture" alt="Concrete Texture" />
+             <GsapParallaxImage src="/images/india-hero-texture.png" alt="Concrete Texture" />
           </div>
           
           <GsapScrollReveal className="relative z-10 w-full flex flex-col justify-end">
