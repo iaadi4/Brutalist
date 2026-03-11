@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brutal-bg: #f4f4f0;
+  --color-brutal-white: #ffffff;
+  --color-brutal-black: #000000;
+  --color-brutal-red: #ff3333;
+  --color-brutal-yellow: #f2ff00;
+  --color-brutal-cyan: #00ffcc;
+  --color-brutal-gray-100: #e0e0e0;
+  --color-brutal-gray-900: #1a1a1a;
+
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-brutal-bg);
+    --foreground: var(--color-brutal-black);
+    --border: var(--color-brutal-black);
+    --input: var(--color-brutal-black);
+    --ring: var(--color-brutal-red);
+    --radius: 0;
+  }
+
+  * {
+    border-color: var(--border);
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: var(--color-brutal-yellow);
+    color: var(--color-brutal-black);
+  }
+
+  /* Structural Utilities */
+  .brutal-border {
+    border: 3px solid var(--color-brutal-black);
+  }
+
+  .brutal-shadow {
+    box-shadow: 6px 6px 0px 0px var(--color-brutal-black);
+  }
+  
+  .brutal-shadow-sm {
+    box-shadow: 3px 3px 0px 0px var(--color-brutal-black);
+  }
+
+  .brutal-shadow-hover {
+    transition: transform 0.05s linear, box-shadow 0.05s linear;
+  }
+
+  .brutal-shadow-hover:hover {
+    box-shadow: 8px 8px 0px 0px var(--color-brutal-black);
+    transform: translate(-2px, -2px);
+  }
+
+  .brutal-shadow-hover:active {
+    box-shadow: 2px 2px 0px 0px var(--color-brutal-black);
+    transform: translate(4px, 4px);
+  }
+
+  .text-massive {
+    font-size: clamp(3rem, 10vw, 10rem);
+    line-height: 0.85;
+    letter-spacing: -0.05em;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .text-raw {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
