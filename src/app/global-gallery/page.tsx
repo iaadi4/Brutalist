@@ -60,10 +60,12 @@ export default function GlobalGalleryPage() {
 
   return (
     <PageTransition>
-      <div ref={containerRef} className="bg-[var(--color-brutal-black)] min-h-screen">
-        
+      <div ref={containerRef} className="bg-[var(--color-brutal-black)] min-h-screen relative overflow-hidden grain-overlay">
+        {/* Animated Grid Background */}
+        <div className="absolute inset-0 z-0 bg-grid-white opacity-5 pointer-events-none"></div>
+
         {/* Title Panel */}
-        <div className="w-full h-screen flex items-center justify-center relative border-b-[16px] border-[var(--color-brutal-white)] bg-[var(--color-brutal-red)] z-10">
+        <div className="w-full h-screen flex items-center justify-center relative border-b-8 lg:border-b-[16px] border-[var(--color-brutal-white)] bg-[var(--color-brutal-red)] z-10">
           <div className="absolute inset-0 opacity-20 mix-blend-multiply pointer-events-none">
              <img src="/images/global-hero-texture.png" alt="Global Brutalism Texture" className="w-full h-full object-cover filter contrast-150 grayscale" />
           </div>
@@ -71,7 +73,7 @@ export default function GlobalGalleryPage() {
              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8] mb-8 text-[var(--color-brutal-white)] text-center">
                GLOBAL<br/>MONOLITHS
              </h1>
-             <div className="bg-[var(--color-brutal-yellow)] text-black px-4 py-2 text-xl lg:text-3xl font-mono font-black brutal-border inline-block">
+             <div className="bg-[var(--color-brutal-yellow)] text-black px-4 py-2 text-xl lg:text-3xl font-mono font-black brutal-border inline-block brutal-shadow-sm">
                INDEX: 06 // WORLDWIDE STRENGTH
              </div>
           </div>
@@ -79,7 +81,7 @@ export default function GlobalGalleryPage() {
 
         {/* Pinned Building Panels */}
         {globalBuildingsData.map((building, index) => (
-          <div key={building.id} className="building-section w-full h-screen relative overflow-hidden flex items-center justify-center border-b-[16px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-black)]">
+          <div key={building.id} className="building-section w-full h-screen relative overflow-hidden flex items-center justify-center border-b-8 lg:border-b-[16px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-black)] z-10">
             
             {/* Massive Background Image */}
             <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
@@ -88,12 +90,12 @@ export default function GlobalGalleryPage() {
             </div>
             
             {/* Overlay Content Box to be Scrubbed Away */}
-            <div className={`text-box relative z-10 w-[90%] max-w-5xl p-8 lg:p-12 border-[8px] border-[var(--color-brutal-black)] brutal-shadow ${index % 2 === 0 ? 'bg-[var(--color-brutal-cyan)]' : 'bg-[var(--color-brutal-white)]'} flex flex-col max-h-[85vh] overflow-y-auto will-change-transform`}>
+            <div className={`text-box relative z-10 w-[90%] max-w-5xl p-8 lg:p-12 border-4 lg:border-8 border-[var(--color-brutal-black)] brutal-shadow ${index % 2 === 0 ? 'bg-[var(--color-brutal-cyan)]' : 'bg-[var(--color-brutal-white)]'} flex flex-col max-h-[85vh] overflow-y-auto will-change-transform`}>
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-                  <div className="bg-[var(--color-brutal-black)] text-white px-4 py-2 font-mono text-xl lg:text-2xl uppercase inline-block brutal-border-sm w-fit">
+                  <div className="bg-[var(--color-brutal-black)] text-white px-4 py-2 font-mono text-xl lg:text-2xl uppercase inline-block brutal-border w-fit">
                     {building.year} // {building.architect}
                   </div>
-                  <div className="font-mono text-lg lg:text-xl font-bold bg-[var(--color-brutal-red)] text-white px-3 py-1 brutal-border shadow-[4px_4px_0px_#000] w-fit">
+                  <div className="font-mono text-lg lg:text-xl font-bold bg-[var(--color-brutal-red)] text-white px-3 py-1 brutal-border brutal-shadow-sm w-fit">
                     {building.location}
                   </div>
                 </div>
@@ -110,7 +112,7 @@ export default function GlobalGalleryPage() {
         ))}
         
         {/* End Panel */}
-        <div className="w-full h-screen flex items-center justify-center bg-[var(--color-brutal-yellow)] relative">
+        <div className="w-full h-screen flex items-center justify-center bg-[var(--color-brutal-yellow)] relative z-10">
             <h2 className="text-massive text-[var(--color-brutal-black)]">END OF INDEX</h2>
         </div>
       </div>

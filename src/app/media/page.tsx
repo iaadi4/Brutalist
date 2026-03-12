@@ -23,12 +23,12 @@ function BuildingCard({ building, index }: { building: typeof famousBuildings[nu
 
   return (
     <GsapScrollReveal
-      className={`border-b-[8px] border-r-0 lg:border-r-[8px] border-[var(--color-brutal-white)] relative overflow-hidden group ${
+      className={`border-b-4 lg:border-b-8 border-r-0 lg:border-r-4 lg:border-r-8 border-[var(--color-brutal-white)] relative overflow-hidden group ${
         index % 4 < 2 ? 'bg-[var(--color-brutal-black)]' : 'bg-[#0a0a0a]'
       } last:border-b-0`}
     >
       {/* Image */}
-      <div className="relative h-[65vw] lg:h-[35vw] max-h-[540px] w-full overflow-hidden border-b-[8px] border-[var(--color-brutal-white)]">
+      <div className="relative h-[65vw] lg:h-[35vw] max-h-[540px] w-full overflow-hidden border-b-4 lg:border-b-8 border-[var(--color-brutal-white)]">
         {imgFailed ? (
           <div
             className="w-full h-full flex items-center justify-center"

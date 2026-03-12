@@ -92,10 +92,10 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png" }],
   },
   viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+},
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,

@@ -74,8 +74,11 @@ export default function OriginsPage() {
           suppressHydrationWarning
         />
         
-        <div className="flex flex-col min-h-screen">
-          <header className="p-8 lg:p-16 bg-[var(--color-brutal-yellow)] border-b-[8px] border-[var(--color-brutal-black)] relative overflow-hidden">
+        <div className="flex flex-col min-h-screen bg-[var(--color-brutal-bg)] text-[var(--color-brutal-black)] selection:bg-[var(--color-brutal-yellow)] selection:text-[var(--color-brutal-black)] relative overflow-hidden grain-overlay">
+          {/* Animated Grid Background */}
+          <div className="absolute inset-0 z-0 bg-grid-black opacity-10 pointer-events-none"></div>
+
+          <header className="p-8 lg:p-16 bg-[var(--color-brutal-yellow)] border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10">
             <div className="absolute top-0 right-0 w-1/2 h-full opacity-30 mix-blend-multiply pointer-events-none hidden md:block">
                <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Texture" />
             </div>
@@ -87,9 +90,9 @@ export default function OriginsPage() {
             </GsapScrollReveal>
           </header>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 flex-1">
+          <div className="grid grid-cols-1 lg:grid-cols-12 flex-1 relative z-10">
             {/* Abstract Sidebar */}
-            <aside className="col-span-1 lg:col-span-3 border-r-[8px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-gray-100)] p-8 hidden lg:block overflow-hidden relative">
+            <aside className="col-span-1 lg:col-span-3 border-r-4 lg:border-r-8 border-[var(--color-brutal-black)] bg-[var(--color-brutal-gray-100)] p-8 hidden lg:block overflow-hidden relative">
                <div className="text-raw rotate-90 origin-left translate-x-12 translate-y-32 tracking-[0.5em] text-[var(--color-brutal-gray-900)] opacity-40 whitespace-nowrap">
                  BÉTON_BRUT // 1952 // NYBRUTALISM // 1950 // THE_NEW_BRUTALISM // 1955
                </div>
@@ -100,7 +103,7 @@ export default function OriginsPage() {
               {originsData.sections.map((item, index) => (
                 <article 
                   key={item.id} 
-                  className={`p-8 lg:p-16 border-b-[8px] border-[var(--color-brutal-black)] relative overflow-hidden group ${index % 2 === 0 ? 'bg-[var(--color-brutal-white)]' : 'bg-[var(--color-brutal-bg)]'}`}
+                  className={`p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden group ${index % 2 === 0 ? 'bg-[var(--color-brutal-white)]' : 'bg-[var(--color-brutal-bg)]'}`}
                 >
                   <div className="absolute top-0 right-0 p-4 bg-[var(--color-brutal-black)] text-[var(--color-brutal-white)] font-mono font-black text-2xl brutal-border translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform z-20">
                     {item.year}
@@ -113,14 +116,14 @@ export default function OriginsPage() {
                   </GsapScrollReveal>
                   
                   <div className="flex items-center gap-4 mb-8">
-                    <span className="bg-[var(--color-brutal-red)] text-white px-3 py-1 font-mono font-bold text-lg brutal-border-sm">
+                    <span className="bg-[var(--color-brutal-red)] text-white px-3 py-1 font-mono font-bold text-lg brutal-border">
                       {item.figure}
                     </span>
-                    <Separator orientation="horizontal" className="flex-1 bg-[var(--color-brutal-red)]" />
+                    <Separator orientation="horizontal" className="flex-1 bg-[var(--color-brutal-red)] h-[2px]" />
                   </div>
                   
                   {/* Massive Image Reveal */}
-                  <div className="w-full min-h-[300px] mb-12 mt-8 brutal-border">
+                  <div className="w-full min-h-[300px] mb-12 mt-8 brutal-border brutal-shadow-sm">
                     <GsapParallaxImage 
                       src={item.image} 
                       alt={item.imageAlt}
