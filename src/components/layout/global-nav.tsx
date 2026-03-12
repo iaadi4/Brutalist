@@ -9,6 +9,8 @@ const navLinks = [
   { href: "/philosophy", label: "Ethos" },
   { href: "/global-gallery", label: "Global" },
   { href: "/india", label: "India" },
+  { href: "/media", label: "Media" },
+  { href: "/downfall", label: "Downfall" },
 ];
 
 export function GlobalNav() {
