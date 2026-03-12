@@ -36,7 +36,7 @@ export function GlobalNav() {
           </motion.div>
         </Link>
         
-        <nav className="flex-1 flex overflow-x-auto items-stretch scrollbar-thin scrollbar-thumb-[var(--color-brutal-black)] scrollbar-track-transparent">
+        <nav className="flex-1 flex overflow-x-auto items-stretch scrollbar-thin scrollbar-thumb-[var(--color-brutal-black)] scrollbar-track-transparent active:scrollbar-thumb-[var(--color-brutal-red)]" style={{ touchAction: 'pan-x', WebkitOverflowScrolling: 'touch' }}>
           <ul className="flex w-fit md:w-full items-stretch h-full">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;

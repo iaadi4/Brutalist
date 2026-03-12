@@ -20,49 +20,63 @@ export default function GlobalGalleryPage() {
       ScrollTrigger.normalizeScroll(true);
     }
 
-    // Select all building sections
     const sections = gsap.utils.toArray('.building-section');
     
     sections.forEach((sec: any) => {
       const textBox = sec.querySelector('.text-box');
+      const textInner = sec.querySelector('.text-inner');
       const imageBg = sec.querySelector('.image-bg');
       const overlayBg = sec.querySelector('.overlay-bg');
       
+      // Calculate how much the content needs to scroll
+      const getScrollAmount = () => {
+        if (!textInner) return 0;
+        return -(textInner.scrollHeight - textInner.clientHeight);
+      };
+
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: sec,
-          start: "top top", // Pin when section reaches top of viewport
-          end: "+=120%", // Slightly reduced for faster mobile experience
+          start: "top top",
+          end: () => `+=${Math.max(window.innerHeight, (textInner?.scrollHeight || 0))}`,
           pin: true,
-          scrub: ScrollTrigger.isTouch === 1 ? true : 1, // Remove delay on mobile
+          scrub: ScrollTrigger.isTouch === 1 ? true : 0.5,
           fastScrollEnd: true,
           preventOverlaps: true,
-          anticipatePin: 1, // Help prevent jitter during pin start
+          anticipatePin: 1,
+          invalidateOnRefresh: true,
         }
       });
 
-      // 1. Text container floats up and fades out
+      // Phase 1: Scroll Content (if it overflows)
+      if (textInner && textInner.scrollHeight > textInner.clientHeight) {
+        tl.to(textInner, {
+          y: getScrollAmount,
+          ease: "none",
+          duration: 2
+        });
+      }
+
+      // Phase 2: Fade out Box & Reveal Image
       tl.to(textBox, { 
-        y: -50, // Reduced from 100 for better mobile framing
         opacity: 0, 
-        scale: 0.95,
-        duration: 2, 
-        ease: "power2.inOut" 
-      }, 0)
-      // 2. Dark overlay fades out to reveal full image brightness
+        scale: 0.9,
+        y: -50,
+        duration: 1, 
+        ease: "power2.in" 
+      })
       .to(overlayBg, {
         opacity: 0,
-        duration: 2,
+        duration: 1,
         ease: "power2.inOut"
-      }, 0)
-      // 3. Image slowly scales in for a majestic parallax effect
+      }, "<")
       .to(imageBg, {
-        scale: 1.05,
-        duration: 2,
+        scale: 1.1,
+        duration: 1.5,
         ease: "power1.inOut"
-      }, 0)
-      // 4. Empty space at the end of the timeline so the user just looks at the pure image before next pin triggers
-      .to({}, { duration: ScrollTrigger.isTouch === 1 ? 0.5 : 1 });
+      }, "<")
+      // Phase 3: Pause to admire the image
+      .to({}, { duration: 0.5 });
     });
   }, { scope: containerRef });
 
@@ -79,7 +93,7 @@ export default function GlobalGalleryPage() {
           </div>
           <div className="relative z-10 p-8 lg:p-16 bg-[var(--color-brutal-black)] text-white brutal-border brutal-shadow my-auto">
              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8] mb-8 text-[var(--color-brutal-white)] text-center">
-               GLOBAL<br/>MONOLITHS
+                GLOBAL<br/>MONOLITHS
              </h1>
              <div className="bg-[var(--color-brutal-yellow)] text-black px-4 py-2 text-xl lg:text-3xl font-mono font-black brutal-border inline-block brutal-shadow-sm">
                INDEX: 06 // WORLDWIDE STRENGTH
@@ -94,27 +108,31 @@ export default function GlobalGalleryPage() {
             {/* Massive Background Image */}
             <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
                <img src={building.image} alt={building.imageAlt} className="image-bg absolute inset-0 w-full h-full object-cover filter contrast-125 grayscale-[20%] scale-100 will-change-transform" />
-               <div className="overlay-bg absolute inset-0 bg-black/60 will-change-opacity"></div> {/* Dark overlay making text readable initially */}
+               <div className="overlay-bg absolute inset-0 bg-black/60 will-change-opacity"></div>
             </div>
             
-            {/* Overlay Content Box to be Scrubbed Away */}
-            <div className={`text-box relative z-10 w-[90%] max-w-5xl p-6 lg:p-12 border-4 lg:border-8 border-[var(--color-brutal-black)] brutal-shadow ${index % 2 === 0 ? 'bg-[var(--color-brutal-cyan)]' : 'bg-[var(--color-brutal-white)]'} flex flex-col max-h-[80vh] overflow-y-auto will-change-transform`}>
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-                  <div className="bg-[var(--color-brutal-black)] text-white px-4 py-2 font-mono text-xl lg:text-2xl uppercase inline-block brutal-border w-fit">
-                    {building.year} // {building.architect}
+            {/* Sequential Content Box */}
+            <div className={`text-box relative z-10 w-[90%] max-w-5xl p-6 lg:p-12 border-4 lg:border-8 border-[var(--color-brutal-black)] brutal-shadow ${index % 2 === 0 ? 'bg-[var(--color-brutal-cyan)]' : 'bg-[var(--color-brutal-white)]'} flex flex-col max-h-[80vh] overflow-hidden will-change-transform`}>
+                <div className="text-inner flex flex-col will-change-transform">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+                    <div className="bg-[var(--color-brutal-black)] text-white px-4 py-2 font-mono text-xl lg:text-2xl uppercase inline-block brutal-border w-fit">
+                      {building.year} // {building.architect}
+                    </div>
+                    <div className="font-mono text-lg lg:text-xl font-bold bg-[var(--color-brutal-red)] text-white px-3 py-1 brutal-border brutal-shadow-sm w-fit">
+                      {building.location}
+                    </div>
                   </div>
-                  <div className="font-mono text-lg lg:text-xl font-bold bg-[var(--color-brutal-red)] text-white px-3 py-1 brutal-border brutal-shadow-sm w-fit">
-                    {building.location}
-                  </div>
+                  
+                  <h2 className="text-5xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.8] mb-8 text-[var(--color-brutal-black)]">
+                    {building.name}
+                  </h2>
+                  
+                  <p className="text-lg lg:text-2xl font-medium leading-relaxed text-left text-[var(--color-brutal-black)]">
+                    {building.technical_details}
+                    {/* Add extra spacing to ensure logic treats it as "scrolled" */}
+                    <span className="block h-12"></span>
+                  </p>
                 </div>
-                
-                <h2 className="text-5xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.8] mb-8 text-[var(--color-brutal-black)]">
-                  {building.name}
-                </h2>
-                
-                <p className="text-lg lg:text-2xl font-medium leading-relaxed text-justify text-[var(--color-brutal-black)]">
-                  {building.technical_details}
-                </p>
             </div>
           </div>
         ))}
