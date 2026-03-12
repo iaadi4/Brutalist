@@ -72,59 +72,73 @@ export default function DownfallPage() {
           suppressHydrationWarning
         />
         
-        <div className="min-h-screen bg-[var(--color-brutal-bg)] text-[var(--color-brutal-black)] selection:bg-[var(--color-brutal-yellow)] selection:text-[var(--color-brutal-black)] pb-32 relative overflow-hidden grain-overlay">
+        <div className="flex flex-col min-h-screen bg-[var(--color-brutal-bg)] text-[var(--color-brutal-black)] selection:bg-[var(--color-brutal-yellow)] selection:text-[var(--color-brutal-black)] relative overflow-hidden grain-overlay">
           {/* Animated Grid Background */}
           <div className="absolute inset-0 z-0 bg-grid-black opacity-10 pointer-events-none"></div>
 
-          {/* Hero Section */}
-          <section className="min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10 bg-[var(--color-brutal-black)]">
-            <div className="absolute inset-0 opacity-40 lg:mix-blend-screen mix-blend-normal pointer-events-none">
-               <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Decay Texture" priority={true} />
+          <header className="p-8 lg:p-16 bg-[var(--color-brutal-yellow)] border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10">
+            <div className="absolute top-0 right-0 w-1/2 h-full opacity-30 mix-blend-multiply pointer-events-none hidden md:block">
+               <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Texture" priority={true} />
             </div>
-            
-            <GsapScrollReveal className="relative z-10 w-full flex flex-col lg:flex-row justify-between items-start lg:items-end text-left">
-              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8] mb-8 text-[var(--color-brutal-white)] lg:mix-blend-difference mix-blend-normal will-change-transform">
-                FALL<br/>&<br/>RISE
-              </h1>
-              <div className="bg-[var(--color-brutal-red)] text-[var(--color-brutal-white)] px-6 py-4 text-2xl lg:text-3xl font-mono font-black brutal-border mb-8 max-w-sm text-right brutal-shadow-sm">
-                FROM INFAMY TO CULT STATUS
-              </div>
+            <GsapScrollReveal className="relative z-10">
+              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8]">Fall & Revival</h1>
+              <p className="text-3xl font-mono font-black mt-8 max-w-3xl uppercase">
+                From Infamy to Cult Status. The Collapse. The Resurrection.
+              </p>
             </GsapScrollReveal>
-          </section>
+          </header>
 
-          {/* introduction */}
-          <section className="p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] bg-[var(--color-brutal-yellow)]">
-             <GsapScrollReveal className="max-w-5xl">
-                <p className="text-2xl lg:text-4xl font-black leading-tight uppercase">
-                   {downfallData.introduction}
-                </p>
-             </GsapScrollReveal>
-          </section>
+          <div className="grid grid-cols-1 lg:grid-cols-12 flex-1 relative z-10">
+            {/* Abstract Sidebar */}
+            <aside className="col-span-1 lg:col-span-3 border-r-4 lg:border-r-8 border-[var(--color-brutal-black)] bg-[var(--color-brutal-gray-100)] p-8 hidden lg:block overflow-hidden relative">
+               <div className="text-raw rotate-90 origin-left translate-x-12 translate-y-32 tracking-[0.5em] text-[var(--color-brutal-gray-900)] opacity-40 whitespace-nowrap">
+                 DECAY // REJECTION // #SOSBRUTALISM // REDISCOVERY // RESURRECTION
+               </div>
+            </aside>
 
-          {/* Sections */}
-          <div className="flex flex-col relative z-10">
-            {downfallData.sections.map((section, idx) => (
-              <div key={section.id} className={`grid grid-cols-1 lg:grid-cols-2 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''} ${idx % 2 === 0 ? 'bg-[var(--color-brutal-white)]' : 'bg-[var(--color-brutal-bg)]'}`}>
-                
-                <GsapScrollReveal 
-                  as="section"
-                  role="region"
-                  aria-labelledby={`heading-${section.id}`}
-                  className={`p-8 lg:p-16 ${idx % 2 === 0 ? 'lg:border-r-4 lg:border-r-8' : 'lg:border-l-4 lg:border-l-8'} border-b-4 lg:border-b-0 border-[var(--color-brutal-black)] flex flex-col justify-between`}
+            {/* Content Feed */}
+            <div className="col-span-1 lg:col-span-9 flex flex-col">
+              {/* Introduction Section */}
+              <section className="p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] bg-[var(--color-brutal-white)]">
+                <GsapScrollReveal>
+                  <p className="text-2xl lg:text-3xl font-bold leading-tight uppercase max-w-4xl">
+                    {downfallData.introduction}
+                  </p>
+                </GsapScrollReveal>
+              </section>
+
+              {downfallData.sections.map((section, idx) => (
+                <article 
+                  key={section.id} 
+                  className={`p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden group ${idx % 2 === 0 ? 'bg-[var(--color-brutal-bg)]' : 'bg-[var(--color-brutal-white)]'}`}
                 >
-                  <div className="max-w-3xl">
-                    <h2 id={`heading-${section.id}`} className="text-5xl lg:text-7xl font-black text-[var(--color-brutal-black)] uppercase mb-8 leading-[0.8]">{section.heading}</h2>
-                    <p className="text-xl lg:text-2xl font-medium text-left text-[var(--color-brutal-black)] leading-relaxed">
+                  <div className="absolute top-0 right-0 p-4 bg-[var(--color-brutal-black)] text-[var(--color-brutal-white)] font-mono font-black text-2xl brutal-border translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform z-20 uppercase">
+                    {section.id.split('-')[0]}
+                  </div>
+                  
+                  <GsapScrollReveal>
+                    <h2 className="text-5xl lg:text-7xl font-black uppercase mb-8 max-w-4xl tracking-tighter leading-[0.9]">
+                      {section.heading}
+                    </h2>
+                  </GsapScrollReveal>
+                  
+                  {/* Framed Image - Respecting Dimensions */}
+                  <div className="w-full min-h-[300px] mb-12 mt-8 brutal-border brutal-shadow-sm bg-black/5">
+                    <GsapParallaxImage 
+                      src={section.image} 
+                      alt={section.imageAlt}
+                      mode="frame"
+                    />
+                  </div>
+                  
+                  <GsapScrollReveal>
+                    <p className="text-xl lg:text-2xl font-medium leading-relaxed max-w-4xl text-justify font-sans">
                       {section.content}
                     </p>
-                  </div>
-                </GsapScrollReveal>
-                
-                <GsapScrollReveal className="p-0 border-none relative min-h-[50vh] lg:min-h-full bg-[var(--color-brutal-black)]">
-                  <GsapParallaxImage src={section.image} alt={section.imageAlt} className="w-full h-full" mode="cover" />
-                </GsapScrollReveal>
-              </div>
-            ))}
+                  </GsapScrollReveal>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </>

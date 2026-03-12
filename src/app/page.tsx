@@ -95,13 +95,14 @@ export default function Home() {
             </div>
 
             {/* Navigation Grid - Enhanced with Depth Perception */}
-            <nav className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 w-full mt-20">
+            <nav className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full mt-20">
               {[
                 { name: "ORIGINS", path: "/origins", color: "bg-[var(--color-brutal-cyan)]", desc: "The Post-War Pour", accent: "bg-white" },
                 { name: "ETHOS", path: "/philosophy", color: "bg-[var(--color-brutal-red)]", desc: "The Moral Choice", accent: "bg-[var(--color-brutal-yellow)]" },
                 { name: "GLOBAL", path: "/global-gallery", color: "bg-[var(--color-brutal-lime)]", desc: "Concrete Giants", text: "text-black" },
                 { name: "INDIA", path: "/india", color: "bg-[var(--color-brutal-orange)]", desc: "Tropical Slabs", text: "text-black" },
-                { name: "MEDIA", path: "/media", color: "bg-[var(--color-brutal-purple)]", desc: "Soviet Archive", text: "text-white" }
+                { name: "MEDIA", path: "/media", color: "bg-[var(--color-brutal-purple)]", desc: "Soviet Archive", text: "text-white" },
+                { name: "DOWNFALL", path: "/downfall", color: "bg-[var(--color-brutal-magenta)]", desc: "From Infamy to Cult Status", text: "text-white" }
               ].map((link, idx) => (
                 <Link 
                   key={link.name} 
