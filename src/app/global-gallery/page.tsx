@@ -15,6 +15,11 @@ export default function GlobalGalleryPage() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
+    // Increase scroll performance on mobile
+    if (ScrollTrigger.isTouch === 1) {
+      ScrollTrigger.normalizeScroll(true);
+    }
+
     // Select all building sections
     const sections = gsap.utils.toArray('.building-section');
     
@@ -27,15 +32,18 @@ export default function GlobalGalleryPage() {
         scrollTrigger: {
           trigger: sec,
           start: "top top", // Pin when section reaches top of viewport
-          end: "+=150%", // Keep pinned for 1.5x the screen height
+          end: "+=120%", // Slightly reduced for faster mobile experience
           pin: true,
-          scrub: 1, // Smooth scrubbing taking 1 second to catch up
+          scrub: ScrollTrigger.isTouch === 1 ? true : 1, // Remove delay on mobile
+          fastScrollEnd: true,
+          preventOverlaps: true,
+          anticipatePin: 1, // Help prevent jitter during pin start
         }
       });
 
       // 1. Text container floats up and fades out
       tl.to(textBox, { 
-        y: -100, 
+        y: -50, // Reduced from 100 for better mobile framing
         opacity: 0, 
         scale: 0.95,
         duration: 2, 
@@ -54,7 +62,7 @@ export default function GlobalGalleryPage() {
         ease: "power1.inOut"
       }, 0)
       // 4. Empty space at the end of the timeline so the user just looks at the pure image before next pin triggers
-      .to({}, { duration: 1 });
+      .to({}, { duration: ScrollTrigger.isTouch === 1 ? 0.5 : 1 });
     });
   }, { scope: containerRef });
 
@@ -90,7 +98,7 @@ export default function GlobalGalleryPage() {
             </div>
             
             {/* Overlay Content Box to be Scrubbed Away */}
-            <div className={`text-box relative z-10 w-[90%] max-w-5xl p-8 lg:p-12 border-4 lg:border-8 border-[var(--color-brutal-black)] brutal-shadow ${index % 2 === 0 ? 'bg-[var(--color-brutal-cyan)]' : 'bg-[var(--color-brutal-white)]'} flex flex-col max-h-[85vh] overflow-y-auto will-change-transform`}>
+            <div className={`text-box relative z-10 w-[90%] max-w-5xl p-6 lg:p-12 border-4 lg:border-8 border-[var(--color-brutal-black)] brutal-shadow ${index % 2 === 0 ? 'bg-[var(--color-brutal-cyan)]' : 'bg-[var(--color-brutal-white)]'} flex flex-col max-h-[80vh] overflow-y-auto will-change-transform`}>
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
                   <div className="bg-[var(--color-brutal-black)] text-white px-4 py-2 font-mono text-xl lg:text-2xl uppercase inline-block brutal-border w-fit">
                     {building.year} // {building.architect}

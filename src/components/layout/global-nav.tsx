@@ -19,7 +19,7 @@ export function GlobalNav() {
       <div className="flex flex-col md:flex-row w-full justify-between items-stretch">
         <Link 
           href="/" 
-          className="p-4 md:p-6 bg-[var(--color-brutal-red)] text-[var(--color-brutal-white)] border-b-[4px] md:border-b-0 md:border-r-[6px] border-[var(--color-brutal-black)] group overflow-hidden relative min-w-[300px]"
+          className="p-3 md:p-6 bg-[var(--color-brutal-red)] text-[var(--color-brutal-white)] border-b-[4px] md:border-b-0 md:border-r-[6px] border-[var(--color-brutal-black)] group overflow-hidden relative min-w-[200px] md:min-w-[300px]"
         >
           <motion.div
             initial={{ y: "100%" }}
@@ -27,25 +27,25 @@ export function GlobalNav() {
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="relative z-10"
           >
-            <h1 className="text-4xl md:text-5xl font-black uppercase tracking-tighter leading-none whitespace-nowrap">
+            <h1 className="text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none whitespace-nowrap">
               B/RUTAL
             </h1>
-            <p className="font-mono text-xs font-bold leading-none mt-2 opacity-90 tracking-widest text-[var(--color-brutal-yellow)]">
+            <p className="font-mono text-[10px] md:text-xs font-bold leading-none mt-1 md:mt-2 opacity-90 tracking-widest text-[var(--color-brutal-yellow)]">
               ETHIC / NOT / AESTHETIC
             </p>
           </motion.div>
         </Link>
         
-        <nav className="flex-1 flex overflow-x-auto items-stretch no-scrollbar">
-           <ul className="flex w-full items-stretch h-full">
+        <nav className="flex-1 flex overflow-x-auto items-stretch scrollbar-thin scrollbar-thumb-[var(--color-brutal-black)] scrollbar-track-transparent">
+          <ul className="flex w-fit md:w-full items-stretch h-full">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
 
               return (
-                <li key={link.href} className="flex-1 min-w-[120px] flex items-stretch border-r-[4px] border-[var(--color-brutal-black)] last:border-r-0 relative">
+                <li key={link.href} className="flex-1 min-w-[100px] md:min-w-[120px] flex items-stretch border-r-[4px] border-[var(--color-brutal-black)] last:border-r-0 relative">
                   <Link href={link.href} className="w-full flex">
                     <button 
-                      className={`w-full h-full flex items-center justify-center font-bold uppercase transition-colors px-4 py-8 md:py-6 text-sm md:text-xl border-none outline-none focus:ring-4 focus:ring-inset focus:ring-[var(--color-brutal-yellow)]
+                      className={`w-full h-full flex items-center justify-center font-bold uppercase transition-colors px-3 py-4 md:py-6 text-xs md:text-xl border-none outline-none focus:ring-4 focus:ring-inset focus:ring-[var(--color-brutal-yellow)]
                         ${isActive 
                           ? "bg-[var(--color-brutal-black)] text-[var(--color-brutal-yellow)]" 
                           : "bg-transparent text-[var(--color-brutal-black)] hover:bg-[var(--color-brutal-cyan)]"
