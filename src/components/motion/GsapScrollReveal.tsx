@@ -13,16 +13,22 @@ export function GsapScrollReveal({ children, className }: { children: React.Reac
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
+    // Improve mobile touch scrolling
+    if (ScrollTrigger.isTouch === 1) {
+      ScrollTrigger.normalizeScroll(true);
+    }
+
     gsap.from(containerRef.current, {
       scrollTrigger: {
         trigger: containerRef.current,
         start: "top 95%",
         end: "top 60%",
-        scrub: 0.5,
+        scrub: ScrollTrigger.isTouch === 1 ? true : 0.5,
       },
       opacity: 0,
-      y: 100, // sharp upward thrust
-      ease: "none",
+      y: 50, // Reduced from 100 for smoother appearance on mobile
+      ease: "power2.out",
+      force3D: true,
     });
   }, { scope: containerRef });
 

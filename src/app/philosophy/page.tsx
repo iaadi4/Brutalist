@@ -79,12 +79,12 @@ export default function PhilosophyPage() {
 
           {/* Hero Section */}
           <section className="min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10 bg-[var(--color-brutal-black)]">
-            <div className="absolute inset-0 opacity-40 mix-blend-screen pointer-events-none">
+            <div className="absolute inset-0 opacity-40 lg:mix-blend-screen mix-blend-normal pointer-events-none">
                <GsapParallaxImage src="/images/philosophy-hero-texture.png" alt="Brutalist Texture" />
             </div>
             
             <GsapScrollReveal className="relative z-10 w-full flex flex-col lg:flex-row justify-between items-start lg:items-end">
-              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8] mb-8 text-[var(--color-brutal-white)] mix-blend-difference">
+              <h1 className="text-massive max-w-[90vw] break-words uppercase leading-[0.8] mb-8 text-[var(--color-brutal-white)] lg:mix-blend-difference mix-blend-normal will-change-transform">
                 ETHOS<br/>NOT<br/>AESTHETIC
               </h1>
               <div className="bg-[var(--color-brutal-yellow)] text-[var(--color-brutal-black)] px-6 py-4 text-2xl lg:text-3xl font-mono font-black brutal-border mb-8 max-w-sm text-right brutal-shadow-sm">

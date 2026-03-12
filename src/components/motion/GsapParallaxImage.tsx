@@ -50,8 +50,12 @@ export function GsapParallaxImage({
           trigger: containerRef.current,
           start: "top bottom",
           end: "bottom top",
-          scrub: true,
+          scrub: ScrollTrigger.isTouch === 1 ? true : 0.5,
+          // Optimization
+          fastScrollEnd: true,
+          preventOverlaps: true,
         },
+        force3D: true,
       }
     );
   }, { scope: containerRef });
@@ -63,7 +67,7 @@ export function GsapParallaxImage({
         <div className="absolute inset-0 opacity-20 bg-[var(--color-brutal-black)]" style={{ backgroundImage: 'radial-gradient(var(--color-brutal-white) 2px, transparent 2px)', backgroundSize: '16px 16px' }}></div>
         
         {/* The Frame */}
-        <div ref={imageRef as React.RefObject<HTMLDivElement>} className="relative z-10 w-full h-full flex items-center justify-center filter drop-shadow-[16px_16px_0px_#000]">
+        <div ref={imageRef as React.RefObject<HTMLDivElement>} className="relative z-10 w-full h-full flex items-center justify-center filter lg:drop-shadow-[16px_16px_0px_#000]">
            <img
              src={src}
              alt={alt}
