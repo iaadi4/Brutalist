@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { GlobalNav } from "@/components/layout/global-nav";
 import { generateOrganizationSchema, generateWebsiteSchema } from "@/lib/seo-schemas";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -157,6 +158,7 @@ export default function RootLayout({
           <main className="flex-1 w-full relative">
             {children}
           </main>
+          <Analytics />
         </div>
       </body>
     </html>
