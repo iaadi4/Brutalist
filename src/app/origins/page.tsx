@@ -9,7 +9,7 @@ import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } fr
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Origins of Brutalism: The Raw Core",
+  title: "Origins of Brutalism",
   description:
     "Explore the origins of Brutalism. Learn about Béton Brut, Le Corbusier's influence, and the ethical framework of postwar architecture.",
   keywords: [
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     title: "Origins of Brutalism | History & Philosophy",
     description:
       "Learn about the origins of Brutalism through Béton Brut and Le Corbusier's concrete revolution.",
-    url: "https://brutalist-arch.vercel.app/history",
+    url: "https://brutalist-arch.vercel.app/origins",
     type: "article",
     images: [
       {
-        url: `${siteUrl}/og-history.png`,
+        url: `${siteUrl}/og-origins.png`,
         width: 1200,
         height: 630,
         alt: "Origins of Brutalism",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://brutalist-arch.vercel.app/history",
+    canonical: "https://brutalist-arch.vercel.app/origins",
   },
 };
 
@@ -46,15 +46,15 @@ export default function OriginsPage() {
   // Generate breadcrumb schema
   const breadcrumbs = [
     { name: 'Home', url: siteUrl },
-    { name: 'Origins', url: `${siteUrl}/history` },
+    { name: 'Origins', url: `${siteUrl}/origins` },
   ];
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbs);
 
   // Generate article schema
   const articleSchema = generateArticleSchema(
-    'Origins of Brutalism: The Raw Core',
+    'Origins of Brutalism',
     originsData.introduction,
-    '/history',
+    '/origins',
     new Date().toISOString(),
     'Brutalism Archive'
   );
@@ -80,7 +80,7 @@ export default function OriginsPage() {
 
           <header className="p-8 lg:p-16 bg-[var(--color-brutal-yellow)] border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10">
             <div className="absolute top-0 right-0 w-1/2 h-full opacity-30 mix-blend-multiply pointer-events-none hidden md:block">
-               <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Texture" />
+               <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Texture" priority={true} />
             </div>
             <GsapScrollReveal className="relative z-10">
               <h1 className="text-massive max-w-[90vw] break-words uppercase">Origins</h1>

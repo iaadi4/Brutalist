@@ -78,7 +78,11 @@ export default function PhilosophyPage() {
           <div className="absolute inset-0 z-0 bg-grid-black opacity-10 pointer-events-none"></div>
 
           {/* Hero Section */}
-          <section className="min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10 bg-[var(--color-brutal-black)]">
+          <section 
+            role="banner" 
+            aria-label="Philosophy Hero: Ethos Not Aesthetic"
+            className="min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10 bg-[var(--color-brutal-black)]"
+          >
             <div className="absolute inset-0 opacity-40 lg:mix-blend-screen mix-blend-normal pointer-events-none">
                <GsapParallaxImage src="/images/philosophy-hero-texture.png" alt="Brutalist Texture" />
             </div>
@@ -105,6 +109,7 @@ export default function PhilosophyPage() {
                   className={`p-8 lg:p-16 ${idx % 2 === 0 ? 'lg:border-r-4 lg:border-r-8' : 'lg:border-l-4 lg:border-l-8'} border-b-4 lg:border-b-0 border-[var(--color-brutal-black)] flex flex-col justify-between`}
                 >
                   <div className="max-w-3xl">
+                    <span className="font-mono text-xs opacity-50 block mb-2 font-bold bg-[var(--color-brutal-black)] text-white w-fit px-2 py-1">PHILO_MOD_{idx + 1}</span>
                     <h2 id={`heading-${section.id}`} className="text-5xl lg:text-7xl font-black text-[var(--color-brutal-red)] uppercase mb-8 leading-[0.8]">{section.heading}</h2>
                     <p className="text-xl lg:text-2xl font-medium text-left text-[var(--color-brutal-black)] leading-relaxed">
                       {section.content}

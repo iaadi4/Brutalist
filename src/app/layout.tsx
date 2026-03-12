@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | BRUTALISM Archive",
   },
   description:
-    "An interactive, deep-dive archive into the global history and philosophy of Brutalist Architecture. Explore iconic buildings, origins, ethics, and the movement's impact worldwide.",
+    "Explore the history and philosophy of Brutalist Architecture. Discover concrete icons, origins, and the movement's global impact.",
   keywords: [
     "brutalism",
     "brutalist architecture",
@@ -157,7 +157,7 @@ export default function RootLayout({
           href="#main-content" 
           className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-[var(--color-brutal-yellow)] focus:text-black focus:p-4 focus:font-black focus:brutal-border focus:brutal-shadow-sm"
         >
-          SKIP_TO_CONTENT
+          Skip to content
         </a>
         <div className="flex-1 flex flex-col relative w-full max-w-[100vw] overflow-x-hidden">
           <GlobalNav />

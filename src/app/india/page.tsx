@@ -60,7 +60,7 @@ export default function IndiaBrutalismPage() {
           {/* Hero Pinned Start Section */}
           <header className="relative min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-8 lg:border-b-[16px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-cyan)] overflow-hidden z-10">
             <div className="absolute top-0 right-0 w-2/3 h-full opacity-40 mix-blend-multiply pointer-events-none">
-               <GsapParallaxImage src="/images/india-hero-texture.png" alt="Concrete Texture" />
+               <GsapParallaxImage src="/images/india-hero-texture.png" alt="Concrete Texture" priority={true} />
             </div>
             
             <GsapScrollReveal className="relative z-10 w-full flex flex-col justify-end">

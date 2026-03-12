@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
 const navLinks = [
-  { href: "/history", label: "Origins" },
+  { href: "/origins", label: "Origins" },
   { href: "/philosophy", label: "Ethos" },
   { href: "/global-gallery", label: "Global" },
   { href: "/india", label: "India" },

@@ -13,12 +13,20 @@ export function GsapParallaxImage({
   src, 
   alt, 
   className,
-  mode = "cover"
+  mode = "cover",
+  width = 1200,
+  height = 800,
+  priority = false,
+  loading
 }: { 
   src: string; 
   alt: string; 
   className?: string;
   mode?: "cover" | "frame";
+  width?: number;
+  height?: number;
+  priority?: boolean;
+  loading?: "lazy" | "eager";
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLImageElement | HTMLDivElement>(null);
@@ -71,9 +79,10 @@ export function GsapParallaxImage({
            <img
              src={src}
              alt={alt}
-             loading="lazy"
-             width={800}
-             height={600}
+             loading={loading || (priority ? "eager" : "lazy")}
+             {...(priority ? { fetchpriority: "high" } : {})}
+             width={width}
+             height={height}
              className="max-w-full max-h-full object-contain border-[8px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-white)] filter contrast-125 grayscale-[20%]"
            />
         </div>
@@ -90,9 +99,10 @@ export function GsapParallaxImage({
         ref={imageRef as React.RefObject<HTMLImageElement>}
         src={src}
         alt={alt}
-        loading="lazy"
-        width={1200}
-        height={800}
+        loading={loading || (priority ? "eager" : "lazy")}
+        {...(priority ? { fetchpriority: "high" } : {})}
+        width={width}
+        height={height}
         className="absolute inset-0 w-full h-full object-cover scale-[1.3] will-change-transform filter contrast-125 grayscale-[20%]"
       />
       <div ref={overlayRef} className="absolute inset-0 bg-[var(--color-brutal-yellow)] z-10 origin-bottom brutal-border"></div>

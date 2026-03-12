@@ -79,7 +79,7 @@ export default function DownfallPage() {
           {/* Hero Section */}
           <section className="min-h-[90vh] flex flex-col justify-end p-8 lg:p-16 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] relative overflow-hidden z-10 bg-[var(--color-brutal-black)]">
             <div className="absolute inset-0 opacity-40 lg:mix-blend-screen mix-blend-normal pointer-events-none">
-               <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Decay Texture" />
+               <GsapParallaxImage src="/images/history-hero-texture.png" alt="Brutalist Decay Texture" priority={true} />
             </div>
             
             <GsapScrollReveal className="relative z-10 w-full flex flex-col lg:flex-row justify-between items-start lg:items-end text-left">

@@ -6,7 +6,7 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist-arch.vercel.app";
 
 export const metadata: Metadata = {
-  title: "BRUTALISM: Ethic, Not Aesthetic",
+  title: "Brutalism: Ethic, Not Aesthetic",
   description:
     "Explore Brutalism—an ethical architectural movement. Discover icons, origins, and philosophy of 20th-century concrete monoliths.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "architectural philosophy",
   ],
   openGraph: {
-    title: "BRUTALISM: Ethic, Not Aesthetic",
+    title: "Brutalism: Ethic, Not Aesthetic",
     description:
       "Explore Brutalism—an ethical architectural movement. Discover icons, origins, and philosophy.",
     url: "https://brutalist-arch.vercel.app",
@@ -97,7 +97,7 @@ export default function Home() {
             {/* Navigation Grid - Enhanced with Depth Perception */}
             <nav className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 w-full mt-20">
               {[
-                { name: "ORIGINS", path: "/history", color: "bg-[var(--color-brutal-cyan)]", desc: "The Post-War Pour", accent: "bg-white" },
+                { name: "ORIGINS", path: "/origins", color: "bg-[var(--color-brutal-cyan)]", desc: "The Post-War Pour", accent: "bg-white" },
                 { name: "ETHOS", path: "/philosophy", color: "bg-[var(--color-brutal-red)]", desc: "The Moral Choice", accent: "bg-[var(--color-brutal-yellow)]" },
                 { name: "GLOBAL", path: "/global-gallery", color: "bg-[var(--color-brutal-lime)]", desc: "Concrete Giants", text: "text-black" },
                 { name: "INDIA", path: "/india", color: "bg-[var(--color-brutal-orange)]", desc: "Tropical Slabs", text: "text-black" },
@@ -144,23 +144,32 @@ export default function Home() {
                   Brutalism is often misunderstood as a mere aesthetic choice—a celebration of raw concrete and aggressive geometry. However, at its core, 
                   <strong> Brutalism is an ethical project</strong>. It emerged from the wreckage of post-war Europe as a moral imperative: to build with 
                   total honesty, exposing the structural truth of a building and the raw nature of its materials. This archive is dedicated to documenting 
-                  that spirit.
+                  that spirit and ensuring that these monumental structures are seen as more than just "ugly concrete blocks."
                 </p>
                 <p>
                   From the towering social housing projects of London to the tropical concrete experiments in India, Brutalist architecture represents 
                   a period of immense architectural courage. It was a time when architects like Le Corbusier, Alison and Peter Smithson, and Ernő Goldfinger 
                   rejected the decorative masks of the past in favor of a new, uncompromising reality. They believed that society deserved buildings that 
-                  didn't lie—buildings that were as raw and unfiltered as the life within them.
+                  didn't lie—buildings that were as raw and unfiltered as the life within them. The movement was a direct response to the housing crises 
+                  following World War II, aiming to provide dignity through mass-produced yet bespoke architectural solutions.
                 </p>
                 <p>
-                  Our global collection explores the <em>"béton brut"</em> movement in all its forms. We track the evolution from Corbusier&apos;s 
+                   The term itself, derived from <em>"béton brut"</em> (raw concrete), was never intended to evoke "brutality" in the modern sense. Instead, 
+                   it was about the "as-found" quality of materials—whether it be the rough grain of timber-shuttered concrete or the starkness of a steel beam. 
+                   Our archival research tracks the evolution of this ethic across continents. We look at the radical structuralism of the Soviet avant-garde, 
+                   the social-democratic experiments of 1960s Britain, and the futuristic metabolism of Japan.
+                </p>
+                <p>
+                  Our global collection explores the movement in all its forms. We track the evolution from Corbusier&apos;s 
                   Unité d&apos;Habitation to the staggering complexity of the Teresa Carreño Cultural Complex in Caracas. We delve into the philosophy 
-                  of Team 10 and the Doorn Manifesto, which sought to put the human experience back at the center of urban planning.
+                  of Team 10 and the Doorn Manifesto, which sought to put the human experience back at the center of urban planning, rejecting the 
+                  cold, detached functionalism that had begun to dominate modernist thought in the early 20th century.
                 </p>
                 <p>
                   This archive serves as a digital monolith—a record of an era that dared to be monumental, challenging, and profoundly human. 
-                  Whether you are a scholar of architectural history or a casual observer of the concrete giants that define our skylines, we invite 
-                  you to explore the ethic, not just the aesthetic, of Brutalism.
+                  By preserving these sites digitally, we offer a counter-narrative to the "regeneration" projects that currently threaten many 
+                  of these iconic structures with demolition. Whether you are a scholar of architectural history or a casual observer of the concrete 
+                  giants that define our skylines, we invite you to explore the ethic, not just the aesthetic, of Brutalism.
                 </p>
               </div>
               <div className="mt-12 flex flex-wrap gap-4">

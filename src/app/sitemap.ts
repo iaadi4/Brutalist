@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: `${baseUrl}/history`,
+      url: `${baseUrl}/origins`,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
       lastModified: new Date(),
