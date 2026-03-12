@@ -11,6 +11,15 @@ if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger, useGSAP);
 }
 
+export const metadata = {
+  title: "Global Brutalist Monoliths | Architecture Archive",
+  description:
+    "A curated gallery of the world's most iconic Brutalist buildings. Explore concrete giants from Marseille to Caracas.",
+  alternates: {
+    canonical: "https://brutalist-arch.vercel.app/global-gallery",
+  },
+};
+
 export default function GlobalGalleryPage() {
   const containerRef = useRef<HTMLDivElement>(null);
 

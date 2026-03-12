@@ -5,12 +5,12 @@ import { GsapParallaxImage } from "@/components/motion/GsapParallaxImage";
 import { Metadata } from "next";
 import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/seo-schemas";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist-arch.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Philosophy of Brutalism | Ethos, Not Aesthetic",
+  title: "Philosophy of Brutalism: Ethos Over Aesthetic",
   description:
-    "Understand the moral philosophy of Brutalism. Explore Team 10, the Doorn Manifesto, structural honesty, and the ethics that defined this architectural movement.",
+    "Understand the moral philosophy of Brutalism. Explore Team 10, the Doorn Manifesto, and the ethics of structural honesty.",
   keywords: [
     "brutalism philosophy",
     "architectural ethics",
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Philosophy of Brutalism | Ethos, Not Aesthetic",
     description:
-      "Understanding Brutalism's core philosophy: Team 10, the Doorn Manifesto, and the moral imperative of structural honesty.",
-    url: `${siteUrl}/philosophy`,
+      "Understanding Brutalism's core philosophy: Team 10, the Doorn Manifesto, and structural honesty.",
+    url: "https://brutalist-arch.vercel.app/philosophy",
     type: "article",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: `${siteUrl}/philosophy`,
+    canonical: "https://brutalist-arch.vercel.app/philosophy",
   },
 };
 
@@ -98,9 +98,14 @@ export default function PhilosophyPage() {
             {philosophyData.sections.map((section, idx) => (
               <div key={section.id} className={`grid grid-cols-1 lg:grid-cols-2 border-b-4 lg:border-b-8 border-[var(--color-brutal-black)] ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''} ${idx % 2 === 0 ? 'bg-[var(--color-brutal-white)]' : 'bg-[var(--color-brutal-bg)]'}`}>
                 
-                <GsapScrollReveal className={`p-8 lg:p-16 ${idx % 2 === 0 ? 'lg:border-r-4 lg:border-r-8' : 'lg:border-l-4 lg:border-l-8'} border-b-4 lg:border-b-0 border-[var(--color-brutal-black)] flex flex-col justify-between`}>
+                <GsapScrollReveal 
+                  as="section"
+                  role="region"
+                  aria-labelledby={`heading-${section.id}`}
+                  className={`p-8 lg:p-16 ${idx % 2 === 0 ? 'lg:border-r-4 lg:border-r-8' : 'lg:border-l-4 lg:border-l-8'} border-b-4 lg:border-b-0 border-[var(--color-brutal-black)] flex flex-col justify-between`}
+                >
                   <div className="max-w-3xl">
-                    <h2 className="text-5xl lg:text-7xl font-black text-[var(--color-brutal-red)] uppercase mb-8 leading-[0.8]">{section.heading}</h2>
+                    <h2 id={`heading-${section.id}`} className="text-5xl lg:text-7xl font-black text-[var(--color-brutal-red)] uppercase mb-8 leading-[0.8]">{section.heading}</h2>
                     <p className="text-xl lg:text-2xl font-medium text-left text-[var(--color-brutal-black)] leading-relaxed">
                       {section.content}
                     </p>

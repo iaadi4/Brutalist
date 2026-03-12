@@ -27,9 +27,9 @@ export function GlobalNav() {
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="relative z-10"
           >
-            <h1 className="text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none whitespace-nowrap">
+            <span className="text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none whitespace-nowrap block">
               B/RUTAL
-            </h1>
+            </span>
             <p className="font-mono text-[10px] md:text-xs font-bold leading-none mt-1 md:mt-2 opacity-90 tracking-widest text-[var(--color-brutal-yellow)]">
               ETHIC / NOT / AESTHETIC
             </p>

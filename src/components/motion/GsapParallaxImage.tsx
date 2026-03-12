@@ -71,6 +71,9 @@ export function GsapParallaxImage({
            <img
              src={src}
              alt={alt}
+             loading="lazy"
+             width={800}
+             height={600}
              className="max-w-full max-h-full object-contain border-[8px] border-[var(--color-brutal-black)] bg-[var(--color-brutal-white)] filter contrast-125 grayscale-[20%]"
            />
         </div>
@@ -87,6 +90,9 @@ export function GsapParallaxImage({
         ref={imageRef as React.RefObject<HTMLImageElement>}
         src={src}
         alt={alt}
+        loading="lazy"
+        width={1200}
+        height={800}
         className="absolute inset-0 w-full h-full object-cover scale-[1.3] will-change-transform filter contrast-125 grayscale-[20%]"
       />
       <div ref={overlayRef} className="absolute inset-0 bg-[var(--color-brutal-yellow)] z-10 origin-bottom brutal-border"></div>

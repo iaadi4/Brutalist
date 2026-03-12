@@ -6,6 +6,16 @@ import { generateBuildingSchema, generateBreadcrumbSchema } from "@/lib/seo-sche
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app";
 
+export const metadata = {
+  title: "Indian Brutalism: The Subcontinental Monolith",
+  description:
+    "Explore the iconic Brutalist architecture of India. From Chandigarh to Ahmedabad, discover the tropical concrete masterworks.",
+  keywords: ["Indian Brutalism", "Le Corbusier India", "Chandigarh architecture", "Ahmedabad Brutalism"],
+  alternates: {
+    canonical: "https://brutalist-arch.vercel.app/india",
+  },
+};
+
 export default function IndiaBrutalismPage() {
   // Generate breadcrumb schema
   const breadcrumbs = [

@@ -148,14 +148,20 @@ export default function RootLayout({
         <link rel="preconnect" href="https://upload.wikimedia.org" />
         
         {/* Canonical Tag */}
-        <link rel="canonical" href={process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app"} />
+        <link rel="canonical" href="https://brutalist-arch.vercel.app" />
       </head>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased selection:bg-[var(--color-brutal-yellow)] selection:text-[var(--color-brutal-black)] flex flex-col min-h-screen bg-[var(--color-brutal-bg)]`}
       >
+        <a 
+          href="#main-content" 
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-[var(--color-brutal-yellow)] focus:text-black focus:p-4 focus:font-black focus:brutal-border focus:brutal-shadow-sm"
+        >
+          SKIP_TO_CONTENT
+        </a>
         <div className="flex-1 flex flex-col relative w-full max-w-[100vw] overflow-x-hidden">
           <GlobalNav />
-          <main className="flex-1 w-full relative">
+          <main id="main-content" className="flex-1 w-full relative">
             {children}
           </main>
           <Analytics />

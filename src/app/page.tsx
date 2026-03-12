@@ -6,9 +6,9 @@ import { Metadata } from "next";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist-arch.vercel.app";
 
 export const metadata: Metadata = {
-  title: "BRUTALISM: Ethic, Not Aesthetic | Home",
+  title: "BRUTALISM: Ethic, Not Aesthetic",
   description:
-    "Discover Brutalism—an ethical architectural movement, not an aesthetic choice. Explore the origins, philosophy, and iconic brutalist buildings from around the world.",
+    "Explore Brutalism—an ethical architectural movement. Discover icons, origins, and philosophy of 20th-century concrete monoliths.",
   keywords: [
     "brutalism",
     "brutalist architecture",
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "BRUTALISM: Ethic, Not Aesthetic",
     description:
-      "Discover Brutalism—an ethical architectural movement, not an aesthetic choice. Explore the origins, philosophy, and iconic buildings.",
-    url: siteUrl,
+      "Explore Brutalism—an ethical architectural movement. Discover icons, origins, and philosophy.",
+    url: "https://brutalist-arch.vercel.app",
     type: "website",
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: siteUrl,
+    canonical: "https://brutalist-arch.vercel.app",
   },
 };
 
@@ -68,7 +68,7 @@ export default function Home() {
 
                 <h1 className="text-massive leading-[0.75] mb-10 group-hover:tracking-tight transition-all duration-700">
                   <span className="block italic">BRUTAL</span>
-                  <span className="block translate-x-4 lg:translate-x-8">ISM</span>
+                  <span className="block translate-x-4 lg:translate-x-8 text-[var(--color-brutal-red)]">ISM</span>
                 </h1>
 
                 <div className="relative">
@@ -133,6 +133,45 @@ export default function Home() {
                 </Link>
               ))}
             </nav>
+
+            {/* About the Archive Section - Improving Content Length */}
+            <section className="w-full max-w-4xl bg-[var(--color-brutal-white)] p-8 lg:p-16 brutal-border brutal-shadow my-20">
+              <h2 className="text-4xl lg:text-6xl font-black uppercase mb-8 border-b-4 border-black pb-4">
+                The Archive Manifesto
+              </h2>
+              <div className="prose prose-xl font-medium leading-relaxed space-y-6">
+                <p>
+                  Brutalism is often misunderstood as a mere aesthetic choice—a celebration of raw concrete and aggressive geometry. However, at its core, 
+                  <strong> Brutalism is an ethical project</strong>. It emerged from the wreckage of post-war Europe as a moral imperative: to build with 
+                  total honesty, exposing the structural truth of a building and the raw nature of its materials. This archive is dedicated to documenting 
+                  that spirit.
+                </p>
+                <p>
+                  From the towering social housing projects of London to the tropical concrete experiments in India, Brutalist architecture represents 
+                  a period of immense architectural courage. It was a time when architects like Le Corbusier, Alison and Peter Smithson, and Ernő Goldfinger 
+                  rejected the decorative masks of the past in favor of a new, uncompromising reality. They believed that society deserved buildings that 
+                  didn't lie—buildings that were as raw and unfiltered as the life within them.
+                </p>
+                <p>
+                  Our global collection explores the <em>"béton brut"</em> movement in all its forms. We track the evolution from Corbusier&apos;s 
+                  Unité d&apos;Habitation to the staggering complexity of the Teresa Carreño Cultural Complex in Caracas. We delve into the philosophy 
+                  of Team 10 and the Doorn Manifesto, which sought to put the human experience back at the center of urban planning.
+                </p>
+                <p>
+                  This archive serves as a digital monolith—a record of an era that dared to be monumental, challenging, and profoundly human. 
+                  Whether you are a scholar of architectural history or a casual observer of the concrete giants that define our skylines, we invite 
+                  you to explore the ethic, not just the aesthetic, of Brutalism.
+                </p>
+              </div>
+              <div className="mt-12 flex flex-wrap gap-4">
+                <span className="bg-[var(--color-brutal-black)] text-white px-4 py-2 font-mono text-sm font-bold uppercase">
+                  Status: Active_Research
+                </span>
+                <span className="bg-[var(--color-brutal-yellow)] text-black px-4 py-2 font-mono text-sm font-bold uppercase brutal-border">
+                  Volume: 01_History
+                </span>
+              </div>
+            </section>
 
           </GsapScrollReveal>
         </main>

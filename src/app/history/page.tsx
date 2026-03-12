@@ -9,9 +9,9 @@ import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } fr
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brutalist.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Origins of Brutalism | The Raw Core, Swedish Presidency & Moral Imperative",
+  title: "Origins of Brutalism: The Raw Core",
   description:
-    "Explore the origins of Brutalist architecture. Understand Béton Brut, Le Corbusier's influence, Nybrutalism, the Swedish terminology, and Reyner Banham's codification of the movement.",
+    "Explore the origins of Brutalism. Learn about Béton Brut, Le Corbusier's influence, and the ethical framework of postwar architecture.",
   keywords: [
     "brutalism origins",
     "béton brut",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Origins of Brutalism | History & Philosophy",
     description:
-      "Learn about the origins of Brutalism through Béton Brut, Le Corbusier's concrete revolution, and the ethical framework that defined a movement.",
-    url: `${siteUrl}/history`,
+      "Learn about the origins of Brutalism through Béton Brut and Le Corbusier's concrete revolution.",
+    url: "https://brutalist-arch.vercel.app/history",
     type: "article",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: `${siteUrl}/history`,
+    canonical: "https://brutalist-arch.vercel.app/history",
   },
 };
 
